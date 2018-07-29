@@ -20,7 +20,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 # Outline
 
 ## MONDAY - Intro to Linux
-- Welcome and Intro
+### Welcome and Intro
   - Teachers, Staff, and Interns
   - Student
     - Name
