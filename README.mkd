@@ -19,7 +19,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 # Outline
 
-## Monday - Intro to Linux
+## MONDAY - Intro to Linux
 - Welcome and Intro
   - Teachers, Staff, and Interns
   - Student
@@ -29,7 +29,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - What you want to Learn
 - [Pre Class Survey](https://goo.gl/forms/tQKGslDdWvqqzlmM2)
 
-## Intro to Virtual Machines
+### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
   - [Why should I use a VM](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
   - Setup VBox
@@ -81,9 +81,9 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
 
 
-## Tuesday - Networking & System Administration
+## TUESDAY - Networking & System Administration
 
-< ! - - -
+<!---
 
 ### Review of Yesterday
 
@@ -112,11 +112,11 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
-### Insecure Admin
+#### Insecure Admin
 - Telnet, FTP, RLogin / Rsh
 - Show wireshark capture of FTP/Telnet password if time allows
 
-### Secure Admin
+#### Secure Admin
 - [SSH](https://www.youtube.com/watch?v=_HBOM7Zq61E) (Show encrypted wireshark capture)
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account.
@@ -143,9 +143,9 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
 
-- - - >
+--->
 
-## Wednesday - Networking
+## WEDNESDAY - Keeping people Out
 
 <!---
 
@@ -176,7 +176,7 @@ How to detect if someone is on your machine?
 
 --->
 
-## Thursday - Website
+## THURSDAY - Intro to bash scripting
 
 <!---
 
