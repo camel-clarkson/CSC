@@ -13,9 +13,9 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - Get Students Interested in STEM
 
 # Basic Rules
-- Be Respectful,
-- Don't be a Distraction to Others' Learning.
-- No physically touching others' computer without their permission (remotely touching them will be encouraged at times).
+- Be Respectful
+- Don't be a Distraction to Others' Learning
+- No physically touching others' computer without their permission (remotely touching them will be encouraged at times)
 
 # Outline
 
@@ -31,23 +31,22 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
-  - [Why should I use a VM](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
+  - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
   - Setup VBox
   - Install Ubuntu / Probably use pregenerated iso
   - Guest Addtitions 'CD' to allow full screen
   - "Bridged" Network to wifi or wired
   - unmount/eject iso from 'D:\'
   - CLONE after a sucessful install!
-  - [Reference Tutorial_1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
-  - [Reference Tutorial_2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
+  - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
+  - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 
 ### Getting Started with Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 - What happens when you press Power - [Boot Process](https://youtu.be/ZtVpz5VWjAs)
-- Shell / Terminal / CLI / BASH
-- Commands + Options
+- Linux fundamentals
 
 - Basic Commands:\
   For each of the commands below (each group chose four),
@@ -66,7 +65,6 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - mv
     - rm
     - mkdir
-    - grep
     - history
     - man
     - less/more
@@ -74,9 +72,9 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - wc
     - tail
     - head
-    - grep (Presented by instructor(s))
+    - grep
   
-- [Game Time](https://github.com/veltman/clmystery.git)
+- Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 - [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po) (if time allows)
 - [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
 
