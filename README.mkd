@@ -5,7 +5,7 @@ Cyber Summer Camp 2018 (CSC2018)
 CSC2018 is a week long summer camp promoting STEM in the Central New York and Mohawk Valley Regions of NY. The camp is geared for local Middle and High School students. The camp provides hands on learning in the areas of cyber defense, programming, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning.
 
 # Objective
-is to prepare students to remotely defend a website that is under attack. The camp begins with the students learning computer virtualization and basic Linux commands. Students will then learn how to remotely administer a computer system, while providing user services and maintaining security. The camp ends with a capstone “live fire” event. The scenario is that the students are in charge of business website (Amazon, Facebook, Google, etc.) which they maintain via SSH, while several members of the community try to take over the student’s web page.
+Prepare students to remotely defend a website that is under attack. The camp begins with the students learning computer virtualization and basic Linux commands. Students will then learn how to remotely administer a computer system, while providing user services and maintaining security. The camp ends with a capstone “live fire” event. The scenario is that the students are in charge of business website (Amazon, Facebook, Google, etc.) which they maintain via SSH, while several members of the community try to take over the student’s web page.
 
 # Goals
 - Have Fun Learning
@@ -27,7 +27,7 @@ is to prepare students to remotely defend a website that is under attack. The ca
     - Grade
     - School
     - What you want to Learn
-- [Pre Class Survey](https://docs.google.com/forms/d/1VtP-kvhPFHNdI_1Cq4iaL6KvBECw6ELLojxanqi_wFA/viewform)
+- [Pre Class Survey](https://goo.gl/forms/tQKGslDdWvqqzlmM2)
 - STEM video (TBD)
 - Ice Breaker (Game TBD)
 - Intro to Virtual Machines
