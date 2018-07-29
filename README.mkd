@@ -200,6 +200,6 @@ How to detect if someone is on your machine?
 
 ### CTF Event based on Team Worksheet and mod'd VM. (TBD)
 
---->
-
 - [Post Class Survey](https://goo.gl/forms/c2mu92MuDLmTSaAf2)
+
+--->
