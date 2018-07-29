@@ -195,8 +195,12 @@ How to detect if someone is on your machine?
 
 --->
 
-## Friday
+## FRIDAY - Red vs Blue Competition
+
+<!---
 
 ### CTF Event based on Team Worksheet and mod'd VM. (TBD)
 
-[Post-Class Knowledge Survey](https://docs.google.com/forms/d/1VtP-kvhPFHNdI_1Cq4iaL6KvBECw6ELLojxanqi_wFA/viewform)
+--->
+
+- [Post Class Survey](https://goo.gl/forms/c2mu92MuDLmTSaAf2)
