@@ -41,18 +41,20 @@ Prepare students to remotely defend a website that is under attack. The camp beg
   - [Reference Tutorial_2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 
 ### Getting Started with Linux
-- What happens when you press Power - [Boot Process](https://www.youtube.com/watch?v=RgLMBXg5b9I&t=3s)
+- [Unix history](https://youtu.be/7FjX7r5icV8)
+- [The story of Linux](https://youtu.be/5ocq6_3-nEw)
+- [How Linux is built](https://youtu.be/yVpbFMhOAwE)
+- What happens when you press Power - [Boot Process](https://youtu.be/ZtVpz5VWjAs)
 - Shell / Terminal / CLI / BASH
 - Commands + Options
 
-- Basic Commands.\
+- Basic Commands:\
   For each of the commands below (each group chose four),
   provide the following:
-  1. Commands Name
-  2. What it does
-  3. Usefull Options
-  4. 2 Examples
-
+   1. Commands Name
+   2. What it does
+   3. Usefull Options
+   4. 2 Examples illustrating their usage
     - ls
     - cd
     - whoami
@@ -69,20 +71,17 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - less/more
     - wget
     - wc
-    - ps
-    - kill
     - tail
     - head
     - grep (Presented by instructor(s))
   
 - [Game Time](https://github.com/veltman/clmystery.git)
-
 - Linux File System (if time allows)
 - [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
 
 
-
 ## Tuesday - System Administration & Malware
+<!---
 
 ### Review of Yesterday
 
@@ -91,6 +90,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - Update & Upgrade
 - Install & Unistall
 - Look at all Packages in Ubuntu Software Manager
+
+--->
 
 ### Users/Groups
 - [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
