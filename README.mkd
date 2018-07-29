@@ -19,7 +19,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 # Outline
 
-## Monday 
+## Monday - Intro to Linux
 - Welcome and Intro
   - Teachers, Staff, and Interns
   - Student
@@ -28,49 +28,60 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - School
     - What you want to Learn
 - [Pre Class Survey](https://goo.gl/forms/tQKGslDdWvqqzlmM2)
-- STEM video (TBD)
-- Ice Breaker (Game TBD)
-- Intro to Virtual Machines
-  - [Why Virtualize?](https://www.youtube.com/watch?v=N4buO79A22w)
-  - Setup  VBox
+
+## Intro to Virtual Machines
+  - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
+  - Setup VBox
   - Install Ubuntu / Probably use pregenerated iso
   - Guest Addtitions 'CD' to allow full screen
   - "Bridged" Network to wifi or wired
   - unmount/eject iso from 'D:\'
   - CLONE after a sucessful install!
-
+  - [Reference Tutorial_1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
+  - [Reference Tutorial_2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 
 ### Getting Started with Linux
-- What happens when you press Power -  [Boot Process](https://www.youtube.com/watch?v=RgLMBXg5b9I&t=3s)
+- What happens when you press Power - [Boot Process](https://www.youtube.com/watch?v=RgLMBXg5b9I&t=3s)
 - Shell / Terminal / CLI / [BASH](https://www.youtube.com/watch?v=x73WTEltyHU)
 - Explain layout of Terminal 
 - [Commands + Options](https://www.youtube.com/watch?v=q7-aEspwwEI)
-- Basic Commands 
 
-1. Commands Name
-2. What it does
-3. Usefull Options
-4. 2 Examples
+- Basic Commands.\
+  For each of the commands below (each group chose four),
+  provide the following:
+  1. Commands Name
+  2. What it does
+  3. Usefull Options
+  4. 2 Examples
 
-  - ls
-  - cd
-  - whoami
-  - alias
-  - pwd
-  - cat
-  - cp
-  - mv
-  - rm
-  - mkdir
-  - grep
-  - history
-  - man
-  - less
-
+    - ls
+    - cd
+    - whoami
+    - alias
+    - pwd
+    - cat
+    - cp
+    - mv
+    - rm
+    - mkdir
+    - grep
+    - history
+    - man
+    - less/more
+    - wget
+    - wc
+    - ps
+    - kill
+    - tail
+    - head
+    - grep (Presented by instructor(s))
+  
 - [Game Time](https://github.com/veltman/clmystery.git)
 
 - [Linux File System](https://www.youtube.com/watch?v=2qQTXp4rBEE)
 - [Sudo] (https://www.youtube.com/watch?v=imnEUvvDxc4)
+
+
 
 ## Tuesday - System Administration & Malware
 
