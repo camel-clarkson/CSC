@@ -1,0 +1,161 @@
+Cyber Summer Camp 2018 (CSC2018)
+======================
+
+# Summary and Audience
+CSC2018 is a week long summer camp promoting STEM in the Central New York and Mohawk Valley Regions of NY. The camp is geared for local Middle and High School students. The camp provides hands on learning in the areas of cyber defense, programming, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning.
+
+# Objective
+is to prepare students to remotely defend a website that is under attack. The camp begins with the students learning computer virtualization and basic Linux commands. Students will then learn how to remotely administer a computer system, while providing user services and maintaining security. The camp ends with a capstone “live fire” event. The scenario is that the students are in charge of business website (Amazon, Facebook, Google, etc.) which they maintain via SSH, while several members of the community try to take over the student’s web page.
+
+# Goals
+- Have Fun Learning
+- Be Safe
+- Get Students Interested in STEM
+
+# Basic Rules
+- Be Respectful,
+- Don't be a Distraction to Others' Learning.
+- No physically touching others' computer without their permission (remotely touching them will be encouraged at times).
+
+# Outline
+
+## Monday 
+- Welcome and Intro
+  - Teachers, Staff, and Interns
+  - Student
+    - Name
+    - Grade
+    - School
+    - What you want to Learn
+- [Pre Class Survey](https://docs.google.com/forms/d/1VtP-kvhPFHNdI_1Cq4iaL6KvBECw6ELLojxanqi_wFA/viewform)
+- STEM video (TBD)
+- Ice Breaker (Game TBD)
+- Intro to Virtual Machines
+  - [Why Virtualize?](https://www.youtube.com/watch?v=N4buO79A22w)
+  - Setup  VBox
+  - Install Ubuntu / Probably use pregenerated iso
+  - Guest Addtitions 'CD' to allow full screen
+  - "Bridged" Network to wifi or wired
+  - unmount/eject iso from 'D:\'
+  - CLONE after a sucessful install!
+
+
+### Getting Started with Linux
+- What happens when you press Power -  [Boot Process](https://www.youtube.com/watch?v=RgLMBXg5b9I&t=3s)
+- Shell / Terminal / CLI / [BASH](https://www.youtube.com/watch?v=x73WTEltyHU)
+- Explain layout of Terminal 
+- [Commands + Options](https://www.youtube.com/watch?v=q7-aEspwwEI)
+- Basic Commands 
+
+1. Commands Name
+2. What it does
+3. Usefull Options
+4. 2 Examples
+
+  - ls
+  - cd
+  - whoami
+  - alias
+  - pwd
+  - cat
+  - cp
+  - mv
+  - rm
+  - mkdir
+  - grep
+  - history
+  - man
+  - less
+
+- [Game Time](https://github.com/veltman/clmystery.git)
+
+- [Linux File System](https://www.youtube.com/watch?v=2qQTXp4rBEE)
+- [Sudo] (https://www.youtube.com/watch?v=imnEUvvDxc4)
+
+## Tuesday - System Administration & Malware
+
+### Review of Yesterday
+
+### Installing Software/Packages
+- [apt-get](https://www.youtube.com/watch?v=p0k6Ok-Xuqw)
+- Update & Upgrade
+- Install & Unistall
+- Look at all Packages in Ubuntu Software Manager
+
+### Users/Groups
+- [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
+- Add a user to your machine
+  - username = name pw=123456789; login -> passwd
+  - Exercise - How do you add, then delete a user?
+- Deluser
+- Passwords (John demo on why strong passwords are important)
+- Permissions (root vs normal user)
+- Add your partner to your machine
+
+
+[Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
+Detecting Malware
+- ps
+- kill
+
+## Wednesday - Networking
+
+### Review of Yesterday
+
+### Networking
+- [IP Addresses & Ports](https://prezi.com/fsimxld9ypti/ip-addresses-ports/)
+  - ifconfig
+
+### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
+
+### Insecure Admin
+- Telnet, FTP, RLogin / Rsh
+- Show wireshark capture of FTP/Telnet password if time
+
+### Secure Admin
+- [SSH](https://www.youtube.com/watch?v=_HBOM7Zq61E)
+- SSH into partner's machine with previously created account.
+
+### Remote users
+How to detect if someone is on your machine?
+- w
+- who
+- What is 'lastlog'?
+- Lock account - passwd -l username
+- pkill -KILL/STOP -u username
+- giving sudo access to other users
+
+### SSH config
+- etc/ssh/sshd\_config
+- Banner - /etc/issue.net
+- Logging Fails - /var/log/auth.log
+
+### Other Secure Admin 
+- VPN
+- Keys only
+- Sandboxing
+- Restricted Root / Sudo - visudo
+- "Anti-virus"
+- pam\_tally2
+- SELinux
+
+## Thursday - Website
+
+### Review of Yesterday
+
+### [Apache](https://www.youtube.com/watch?v=fRLJ3bnbHmE)
+- Configuring Apache - httpd.conf
+- Making your webpage - /var/www/html/index.html
+- Intro to HTML / Website making (Need cp/paste templates)
+
+### Services
+- start, stop, restart
+- /etc/init.d
+
+### Word Press (TBD)
+
+## Friday
+
+### CTF Event based on Team Worksheet and mod'd VM. (TBD)
+
+[Post-Class Knowledge Survey](https://docs.google.com/forms/d/1VtP-kvhPFHNdI_1Cq4iaL6KvBECw6ELLojxanqi_wFA/viewform)
