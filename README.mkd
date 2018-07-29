@@ -27,6 +27,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - Grade
     - School
     - What you want to Learn
+    - What major you want to choose in college
 - [Pre Class Survey](https://goo.gl/forms/tQKGslDdWvqqzlmM2)
 
 ### Intro to Virtual Machines
