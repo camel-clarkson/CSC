@@ -42,9 +42,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Getting Started with Linux
 - What happens when you press Power - [Boot Process](https://www.youtube.com/watch?v=RgLMBXg5b9I&t=3s)
-- Shell / Terminal / CLI / [BASH](https://www.youtube.com/watch?v=x73WTEltyHU)
-- Explain layout of Terminal 
-- [Commands + Options](https://www.youtube.com/watch?v=q7-aEspwwEI)
+- Shell / Terminal / CLI / BASH
+- Commands + Options
 
 - Basic Commands.\
   For each of the commands below (each group chose four),
@@ -78,8 +77,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
   
 - [Game Time](https://github.com/veltman/clmystery.git)
 
-- [Linux File System](https://www.youtube.com/watch?v=2qQTXp4rBEE)
-- [Sudo] (https://www.youtube.com/watch?v=imnEUvvDxc4)
+- Linux File System (if time allows)
+- [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
 
 
 
