@@ -46,7 +46,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
-- What happens when you press Power - [Boot Process](https://youtu.be/ZtVpz5VWjAs)
+- What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
+- [Linux Book Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
 - Linux fundamentals
 
 - Basic Commands:\
