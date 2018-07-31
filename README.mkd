@@ -76,21 +76,18 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - head
     - grep
   
+## TUESDAY - Networking & System Administration
+
+### STEM careers, presented by Mike Mayhew (AFRL)
+
+### Review of Yesterday
+
 - Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 - [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po) (if time allows)
 - [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
 
-
-## TUESDAY - Networking & System Administration
-
-<!---
-
-### Review of Yesterday
-
-### STEM careers, presented by Mike Mayhew (AFRL)
-
 ### Installing Software/Packages
-- [apt-get](https://youtu.be/EJgXqQvqaIM) / [apt](https://youtu.be/9jNcjdQxEV8)
+- [apt-get](https://youtu.be/EJgXqQvqaIM)  <!---  / [apt](https://youtu.be/9jNcjdQxEV8)  --->
 - Update & Upgrade
 - Install & Unistall
 - Look at all Packages in Ubuntu Software Manager
@@ -142,6 +139,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
+<!---
 
 --->
 
