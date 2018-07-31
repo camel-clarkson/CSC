@@ -82,12 +82,15 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Review of Yesterday
 
-- Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
-- [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po) (if time allows)
-- [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4) (if time allows)
+
+### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+
+### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
+
+### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
 
 ### Installing Software/Packages
-- [apt-get](https://youtu.be/EJgXqQvqaIM)  <!---  / [apt](https://youtu.be/9jNcjdQxEV8)  --->
+- [apt-get](https://youtu.be/EJgXqQvqaIM)
 - Update & Upgrade
 - Install & Unistall
 - Look at all Packages in Ubuntu Software Manager
@@ -98,14 +101,14 @@ Prepare students to remotely defend a website that is under attack. The camp beg
   - username = name pw=123456789; login -> passwd
   - Exercise - How do you add, then delete a user?
 - Deluser
-- Passwords (John demo on why strong passwords are important)
+- Passwords (strong passwords are IMPORTANT!)
 - Permissions (root vs normal user)
 - Add your partner to your machine
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
-- [Ports](link here)
-  - ifconfig
+- [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
+- ifconfig
 
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
