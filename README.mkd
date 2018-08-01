@@ -171,8 +171,6 @@ How to detect if someone is on your machine?
 - pam\_tally2
 - SELinux
 
---->
-
 ## THURSDAY - Intro to bash scripting
 
 <!---
