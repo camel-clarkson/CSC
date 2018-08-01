@@ -116,6 +116,8 @@ modified from: https://github.com/zubacat/CyberBASH
 
 ### Review of Yesterday
 
+- Take snapshot of VM
+
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
 #### Insecure Admin
@@ -123,7 +125,7 @@ modified from: https://github.com/zubacat/CyberBASH
 - Show wireshark capture of FTP/Telnet password if time allows
 
 #### Secure Admin
-- [SSH](https://www.youtube.com/watch?v=_HBOM7Zq61E) (Show encrypted wireshark capture)
+- [SSH](https://youtu.be/zlv9dI-9g1U) (Show encrypted wireshark capture)
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account.
 
