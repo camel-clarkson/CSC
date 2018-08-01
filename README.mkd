@@ -19,6 +19,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 # Outline
 
+modified from: https://github.com/zubacat/CyberBASH
+
 ## MONDAY - Intro to Linux
 ### Welcome and Intro
   - Teachers, Staff, and Interns
@@ -110,6 +112,10 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
 - ifconfig
 
+## WEDNESDAY - Keeping people Out
+
+### Review of Yesterday
+
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
 #### Insecure Admin
@@ -141,16 +147,6 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
-
-<!---
-
---->
-
-## WEDNESDAY - Keeping people Out
-
-<!---
-
-### Review of Yesterday
 
 ### Remote users
 How to detect if someone is on your machine?
