@@ -1,0 +1,26 @@
+#!/bin/bash
+if [ $# -lt 1 ]
+   then 
+   echo "Usage: forever sleeptime loopcount"
+   echo "Default values of 1 sec. and 1000, control-c to kill"
+fi 
+echo "The process ID is $$"
+if [ $1 ]
+then sleeptime=$1
+else sleeptime=1
+fi
+if [ $2 ]
+then loopcount=$2
+else loopcount=1000
+fi
+j=0
+while true
+do  
+    for ((i = 0;i<$loopcount;i++))
+    do
+        ((j=j+1))
+    done
+    echo "Going to sleep j= $j"
+    sleep $sleeptime
+    echo "Waking up"
+done
