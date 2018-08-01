@@ -100,11 +100,11 @@ modified from: https://github.com/zubacat/CyberBASH
 ### Users/Groups
 - [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
 - Add a user to your machine
-  - username = student pw=student; login -> passwd
-- Deluser
+  - username = student ; pw = student
+  - giving sudo access to the user you created
 - Passwords (strong passwords are IMPORTANT!)
 - Permissions (root vs normal user)
-- Exercise - How do you add, then delete a user?
+- Exercise - Can you add, then delete a user?
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -150,14 +150,13 @@ modified from: https://github.com/zubacat/CyberBASH
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
-### Remote users
-How to detect if someone is on your machine?
-- w
-- who
-- What is 'lastlog'?
+### Firewalls
+- iptables
+- Practice denying your partner though both port and IP addr.
+
+### Users
 - Lock account - passwd -l username
-- pkill -KILL/STOP -u username
-- giving sudo access to other users
+- deluser
 
 ### SSH config
 - etc/ssh/sshd\_config
@@ -172,6 +171,15 @@ How to detect if someone is on your machine?
 - "Anti-virus"
 - pam\_tally2
 - SELinux
+
+### [Apache](https://youtu.be/fRLJ3bnbHmE)
+- Configuring Apache - httpd.conf
+- Making your webpage - /var/www/html/index.html
+- Intro to HTML / Website making (if time allows)
+
+### Services
+- start, stop, restart
+- /etc/init.d
 
 ## THURSDAY - Intro to bash scripting
 
