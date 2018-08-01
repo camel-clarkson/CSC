@@ -100,12 +100,11 @@ modified from: https://github.com/zubacat/CyberBASH
 ### Users/Groups
 - [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
 - Add a user to your machine
-  - username = name pw=123456789; login -> passwd
-  - Exercise - How do you add, then delete a user?
+  - username = student pw=student; login -> passwd
 - Deluser
 - Passwords (strong passwords are IMPORTANT!)
 - Permissions (root vs normal user)
-- Add your partner to your machine
+- Exercise - How do you add, then delete a user?
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -122,12 +121,13 @@ modified from: https://github.com/zubacat/CyberBASH
 
 #### Insecure Admin
 - Telnet, FTP, RLogin / Rsh
-- Show wireshark capture of FTP/Telnet password if time allows
+- Show wireshark capture of FTP/Telnet password
 
 #### Secure Admin
-- [SSH](https://youtu.be/zlv9dI-9g1U) (Show encrypted wireshark capture)
+- [SSH](https://youtu.be/v_cVEpESG3g) 
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
-- SSH into partner's machine with previously created account.
+- SSH into partner's machine with previously created account
+- Show encrypted wireshark capture
 
 ### How to tell what doors (ports and services) are open
 - netstat -lntu   #(Kind of confusing output)
@@ -145,7 +145,7 @@ modified from: https://github.com/zubacat/CyberBASH
 
 ### Fun exercise (Who can remote log in first)
 
-### If time allows:
+### Malware
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
