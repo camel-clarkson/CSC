@@ -172,9 +172,11 @@ modified from: https://github.com/zubacat/CyberBASH
 - pam\_tally2
 - SELinux
 
-### [Apache](https://youtu.be/fRLJ3bnbHmE)
+### Apache
+- [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
 - Configuring Apache - httpd.conf
 - Making your webpage - /var/www/html/index.html
+- [default index.html](https://gist.github.com/nfarring/1113292)
 - Intro to HTML / Website making (if time allows)
 
 ### Services
