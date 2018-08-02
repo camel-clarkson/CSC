@@ -162,7 +162,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
 ### SSH config
-- etc/ssh/sshd\_config
+- /etc/ssh/sshd\_config
 - Banner - /etc/issue.net
 - Logging Fails - /var/log/auth.log
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
