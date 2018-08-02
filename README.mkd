@@ -167,6 +167,11 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - Logging Fails - /var/log/auth.log
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 
+### Users
+- Lock account - passwd -l username
+- deluser
+- Exercise - Can you add, then delete a user?
+
 ### Intro to Scripts
 - changeSSHPort.sh
 - setSSHBanner.sh
@@ -176,11 +181,6 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
-
-### Users
-- Lock account - passwd -l username
-- deluser
-- Exercise - Can you add, then delete a user?
 
 ### Services
 - start, stop, restart
