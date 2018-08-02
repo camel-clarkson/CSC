@@ -174,7 +174,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
-- Practice denying your partner though both port and IP addr.
+- Practice denying your partner through both port and IP addr.
 
 ### Users
 - Lock account - passwd -l username
@@ -186,7 +186,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Misc
 - VPN
-- [cron](https://www.youtube.com/watch?v=hGqjM9Wz-pU) (start at time 22:25) 
+- [cron](https://www.youtube.com/watch?v=hGqjM9Wz-pU) (starts at time 22:25) 
 - chattr
   - lsattr
 
