@@ -1,6 +1,6 @@
 Cyber Summer Camp 2018 (CSC2018)
 ======================
-forked from: https://github.com/zubacat/CyberBASH
+forked from: [CyberBASH](https://github.com/zubacat/CyberBASH)
 
 # Summary and Audience
 CSC2018 is a week long summer camp promoting STEM in the Central New York and Mohawk Valley Regions of NY. The camp is geared for local Middle and High School students. The camp provides hands on learning in the areas of cyber defense, programming, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning.
