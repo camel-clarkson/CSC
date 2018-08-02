@@ -186,8 +186,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Misc
 - VPN
-- [cron] (https://www.youtube.com/watch?v=hGqjM9Wz-pU)
-  - Start at 22:25 
+- [cron](https://www.youtube.com/watch?v=hGqjM9Wz-pU) (start at time 22:25) 
 - chattr
   - lsattr
 
