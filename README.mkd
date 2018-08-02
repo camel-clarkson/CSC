@@ -160,6 +160,18 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
+### SSH config
+- etc/ssh/sshd\_config
+- Banner - /etc/issue.net
+- Logging Fails - /var/log/auth.log
+- [SSH passwordless access](https://www.youtube.com/watch?v=EuIYabZS3ow)
+
+### Intro to Scripts
+- changeSSHPort.sh
+- setSSHBanner.sh
+- setHTML.sh
+- getFailLog.sh
+
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner though both port and IP addr.
@@ -168,28 +180,16 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - Lock account - passwd -l username
 - deluser
 
-### Intro to Scipts
-- setSSHBanner.sh
-- setHTML.sh
-- getFailLog.sh
-
-### SSH config
-- etc/ssh/sshd\_config
-- Banner - /etc/issue.net
-- Logging Fails - /var/log/auth.log
-
-### Other Secure Admin 
-- VPN
-- Keys only
-- Sandboxing
-- Restricted Root / Sudo - visudo
-- "Anti-virus"
-- pam\_tally2
-- SELinux
-
 ### Services
 - start, stop, restart
 - /etc/init.d
+
+### Misc
+- VPN
+- [cron] (https://www.youtube.com/watch?v=hGqjM9Wz-pU)
+  - Start at 22:25 
+- chattr
+  - lsattr
 
 ## FRIDAY - Red vs Blue Competition
 
