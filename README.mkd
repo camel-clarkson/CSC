@@ -151,11 +151,6 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [default index.html](https://gist.github.com/nfarring/1113292)
 - Intro to HTML / Website making (if time allows)
 
-### [Apache](https://www.youtube.com/watch?v=fRLJ3bnbHmE)
-- Configuring Apache - httpd.conf
-- Making your webpage - /var/www/html/index.html
-- Intro to HTML / Website making (Need cp/paste templates)
-
 ## THURSDAY - Intro to bash scripting
 
 ### Review of Yesterday
@@ -172,6 +167,11 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 ### Users
 - Lock account - passwd -l username
 - deluser
+
+### Intro to Scipts
+- setSSHBanner.sh
+- setHTML.sh
+- getFailLog.sh
 
 ### SSH config
 - etc/ssh/sshd\_config
@@ -191,12 +191,9 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - start, stop, restart
 - /etc/init.d
 
-### Services
-- start, stop, restart
-- /etc/init.d
-
 ## FRIDAY - Red vs Blue Competition
 
+<!---
 ### CTF Event: Red vs Blue Competition 
 
 - 9:00 [Post Class Survey](https://goo.gl/forms/c2mu92MuDLmTSaAf2)
@@ -205,3 +202,4 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - 11:15 - End Comp - Debrief from Red Team  
 - 11:30 - Each Group Debriefs what they have learned ~5mins/group
 - 12:00 - Closing remarks to parents/students
+--->
