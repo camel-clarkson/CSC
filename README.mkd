@@ -103,11 +103,11 @@ Prepare students to remotely defend a website that is under attack. The camp beg
   - giving sudo access to the user you created
 - Passwords (strong passwords are IMPORTANT!)
 - Permissions (root vs normal user)
-- Exercise - Can you add, then delete a user?
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
+- [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
 - ifconfig
 
 ## WEDNESDAY - Keeping people Out
@@ -124,32 +124,33 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 #### Secure Admin
 - [SSH](https://youtu.be/v_cVEpESG3g) 
-- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
+- [SSH Install](https://youtu.be/0KXZ6GnVza8)
 - SSH into partner's machine with previously created account
 - Show encrypted wireshark capture
 
 ### How to tell what doors (ports and services) are open
-- netstat -lntu   #(Kind of confusing output)
+- netstat -lntu
 - nmap localhost
+- [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
 
 ### How to detect if someone is on your machine?
-- w - maybe the most useful command you will learn
-- Who
-- What is 'lastlog'?
+- w (maybe the most useful command you will learn)
+- who
+- lastlog
 
 ### Kicking people out
 - reboot
 - ps/kill
 - pkill -KILL/STOP -u username
 
-### Fun exercise (Who can remote log in first)
-
 ### Apache
 - [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
 - Configuring Apache - httpd.conf
 - Making your webpage - /var/www/html/index.html
 - [default index.html](https://gist.github.com/nfarring/1113292)
-- Intro to HTML / Website making (if time allows)
+- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
+
+### Fun exercise (Which group can remote log in first)
 
 ## THURSDAY - Intro to bash scripting
 
@@ -164,7 +165,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - etc/ssh/sshd\_config
 - Banner - /etc/issue.net
 - Logging Fails - /var/log/auth.log
-- [SSH passwordless access](https://www.youtube.com/watch?v=EuIYabZS3ow)
+- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 
 ### Intro to Scripts
 - changeSSHPort.sh
@@ -179,6 +180,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 ### Users
 - Lock account - passwd -l username
 - deluser
+- Exercise - Can you add, then delete a user?
 
 ### Services
 - start, stop, restart
