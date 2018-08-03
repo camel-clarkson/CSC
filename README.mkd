@@ -103,6 +103,8 @@ Prepare students to remotely defend a website that is under attack. The camp beg
   - giving sudo access to the user you created
 - Passwords (strong passwords are IMPORTANT!)
 - Permissions (root vs normal user)
+- deluser
+- Exercise - Can you add, then delete a user?
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -120,13 +122,17 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 #### Insecure Admin
 - Telnet, FTP, RLogin / Rsh
+<!---
 - Show wireshark capture of FTP/Telnet password
+- Show encrypted wireshark capture
+-->
 
 #### Secure Admin
 - [SSH](https://youtu.be/v_cVEpESG3g) 
 - [SSH Install](https://youtu.be/0KXZ6GnVza8)
+- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
+- /etc/ssh/sshd\_config
 - SSH into partner's machine with previously created account
-- Show encrypted wireshark capture
 
 ### How to tell what doors (ports and services) are open
 - netstat -lntu
@@ -142,6 +148,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - reboot
 - ps/kill
 - pkill -KILL/STOP -u username
+- Lock account - passwd -l username
 
 ### Apache
 - [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
@@ -161,36 +168,19 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
-### SSH config
-- /etc/ssh/sshd\_config
-- Banner - /etc/issue.net
-- Logging Fails - /var/log/auth.log
-- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
-
-### Users
-- Lock account - passwd -l username
-- deluser
-- Exercise - Can you add, then delete a user?
-
-### Intro to Scripts
-- changeSSHPort.sh
-- setSSHBanner.sh
-- setHTML.sh
-- getFailLog.sh
-
-### [Firewalls](https://youtu.be/N2sOPGhva1M)
-- [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
-- Practice denying your partner through both port and IP addr.
-
 ### Services
 - start, stop, restart
 - /etc/init.d
 
-### Misc
-- VPN
-- [cron](https://www.youtube.com/watch?v=hGqjM9Wz-pU) (starts at time 22:25) 
-- chattr
-  - lsattr
+### Intro to Scripts
+- changeSSHPort.sh
+- setSSHBanner.sh - Banner - /etc/issue.net
+- setHTML.sh
+- getFailLog.sh - Logging Fails - /var/log/auth.log
+
+### Firewalls
+- [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
+- Practice denying your partner through both port and IP addr.
 
 ## FRIDAY - Red vs Blue Competition
 
