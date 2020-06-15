@@ -1,4 +1,4 @@
-Cyber Summer Camp 2018 (CSC2018)
+Cyber Summer Camp 2020 (CSC2020)
 ======================
 forked from: [CyberBASH](https://github.com/zubacat/CyberBASH)
 
