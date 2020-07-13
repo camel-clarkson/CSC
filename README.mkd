@@ -1,47 +1,45 @@
 Cyber Summer Camp 2020 (CSC2020)
 ======================
-forked from: [CyberBASH](https://github.com/zubacat/CyberBASH)
+forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
 
 # Summary and Audience
-CSC2018 is a week long summer camp promoting STEM in the Central New York and Mohawk Valley Regions of NY. The camp is geared for local Middle and High School students. The camp provides hands on learning in the areas of cyber defense, programming, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning.
+CSC2020 is a STEM summer camp designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 8-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. Cyber Summer Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
 
 # Objective
-Prepare students to remotely defend a website that is under attack. The camp begins with the students learning computer virtualization and basic Linux commands. Students will then learn how to remotely administer a computer system, while providing user services and maintaining security. The camp ends with a capstone “live fire” event. The scenario is that the students are in charge of business website (Amazon, Facebook, Google, etc.) which they maintain via SSH, while several members of the community try to take over the student’s web page.
+Prepare students to understand basic to intermediate level concepts in cybersecurity. The camp begins with the campers learning Linux operating system and Linux commands. Students will then learn how to administer a computer system, while providing user services and maintaining security. This year we will introduce a network traffic analysis component as well.
 
 # Goals
 - Have Fun Learning
-- Be Safe
 - Get Students Interested in STEM
 
 # Basic Rules
 - Be Respectful
 - Don't be a Distraction to Others' Learning
-- No physically touching others' computer without their permission (remotely touching them will be encouraged at times)
 
 # Outline
 
 ## MONDAY - Intro to Linux
 ### Welcome and Intro
-  - Teachers, Staff, and Interns
+  - Teacher, Staff, and Intern
   - Student
     - Name
     - Grade
     - School
     - What do you expect to learn?
     - What major do you want to choose in college?
-- [Pre Class Survey](https://goo.gl/forms/tQKGslDdWvqqzlmM2)
+- [Pre Class Survey (To Be Posted)]
 
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
   - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
-  - Setup VBox
-  - Install Ubuntu / Probably use pregenerated iso
-  - Guest Addtitions 'CD' to allow full screen
-  - "Bridged" Network to wifi or wired
-  - unmount/eject iso from 'D:\'
-  - CLONE after a sucessful install!
-  - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
-  - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
+  - Install [PUTTY](https://www.putty.org/) (if using Windows)
+  - Connect to Linux Virtual Machine on Amazon Web Services (AWS) using SSH
+
+<!---
+  - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
+     - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
+     - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
+-->
 
 ### Getting Started with Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
@@ -76,15 +74,12 @@ Prepare students to remotely defend a website that is under attack. The camp beg
     - tail
     - head
     - grep
-  
-## TUESDAY - Networking & System Administration
-
-### STEM careers, presented by Mike Mayhew (AFRL)
-
-### Review of Yesterday
-
 
 ### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+
+## TUESDAY - Networking & System Administration
+
+### Review of Yesterday
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 
@@ -94,7 +89,7 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [apt-get](https://youtu.be/EJgXqQvqaIM)
 - Update & Upgrade
 - Install & Unistall
-- Look at all Packages in Ubuntu Software Manager
+- Look at all Packages in Software Manager
 
 ### Users/Groups
 - [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
@@ -112,20 +107,10 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
 - ifconfig
 
-## WEDNESDAY - Keeping people Out
-
-### Review of Yesterday
-
-- Take snapshot of VM
-
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
 #### Insecure Admin
 - Telnet, FTP, RLogin / Rsh
-<!---
-- Show wireshark capture of FTP/Telnet password
-- Show encrypted wireshark capture
--->
 
 #### Secure Admin
 - [SSH](https://youtu.be/v_cVEpESG3g) 
@@ -159,6 +144,17 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 
 ### Fun exercise (Which group can remote log in first)
 
+## WEDNESDAY - Network Traffic Analysis
+
+### Review of Yesterday
+
+### Packet/protocol analysis 
+Led by MSgt Christy Behrens
+- OSI model and the different layers
+- Wireshark and basic uses
+- a little discussion on where this type of job is done in the real word
+- What is a byte, bit, nibble, etc.
+
 ## THURSDAY - Intro to bash scripting
 
 ### Review of Yesterday
@@ -182,13 +178,6 @@ Prepare students to remotely defend a website that is under attack. The camp beg
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
 
-## FRIDAY - Red vs Blue Competition
-
-### CTF Event: Red vs Blue Competition 
-
-- 9:00 [Post Class Survey](https://goo.gl/forms/c2mu92MuDLmTSaAf2)
-- 9:15 - Final Review - Any Last Questions 
-- 9:30 - Start R v B Competition
-- 11:15 - End Comp - Debrief from Red Team  
-- 11:30 - Each Group Debriefs what they have learned ~5mins/group
-- 12:00 - Closing remarks to parents/students
+### Closing
+- [Post Class Survey (To Be Posted)]
+- Closing remarks
