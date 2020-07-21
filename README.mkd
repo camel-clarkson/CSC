@@ -32,16 +32,24 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
   - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
+  <!---
   - Install [PUTTY](https://www.putty.org/) (if using Windows)
   - Connect to Linux Virtual Machine on Amazon Web Services (AWS) using SSH
-
+  -->
+  
 <!---
   - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
      - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 -->
 
+### Getting Started with Linux (Windows)
+- Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) to SSH into Linux VM on Amazon Web Services (AWS)
+- Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
+- Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
+
 ### Getting Started with Linux
+- Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
