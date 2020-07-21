@@ -27,7 +27,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
     - School
     - What do you expect to learn?
     - What major do you want to choose in college?
-- [Pre Class Survey (To Be Posted)]
+- [Pre Class Survey] (https://forms.gle/ovQN1Ga7A7Jm8zpE7)
 
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
@@ -179,5 +179,5 @@ Led by MSgt Christy Behrens
 - Practice denying your partner through both port and IP addr.
 
 ### Closing
-- [Post Class Survey (To Be Posted)]
+- [Post Class Survey] (https://forms.gle/idVnxjpb8Bj7UUAy9)
 - Closing remarks
