@@ -27,7 +27,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
     - School
     - What do you expect to learn?
     - What major do you want to choose in college?
-- [Pre Class Survey](https://forms.gle/ovQN1Ga7A7Jm8zpE7)
+- [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6)
 
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
@@ -46,7 +46,10 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Getting Started with Linux (Windows)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
-- Connect to the Linux VM using SSH at this IPv4 address on Amazon Web Services (AWS) (to be filled in)
+
+### Getting Started with Linux (Mac)
+- Install [XQuartz](https://www.xquartz.org/)
+- Reboot
 
 ### Getting Started with Linux
 - Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
@@ -90,15 +93,17 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Review of Yesterday
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-
+<!--
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
+-->
 
+<!--
 ### Installing Software/Packages
 - [apt-get](https://youtu.be/EJgXqQvqaIM)
 - Update & Upgrade
 - Install & Unistall
 - Look at all Packages in Software Manager
-
+-
 ### Users/Groups
 - [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
 - Add a user to your machine
@@ -108,6 +113,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Permissions (root vs normal user)
 - deluser
 - Exercise - Can you add, then delete a user?
+-->
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -140,15 +146,17 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Kicking people out
 - reboot
 - ps/kill
+<!--
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
+-->
 
 ### Apache
 - [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
 - Configuring Apache - httpd.conf
 - Making your webpage - /var/www/html/index.html
 - [default index.html](https://gist.github.com/nfarring/1113292)
-- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
+]- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
 
 ### Fun exercise (Which group can remote log in first)
 
@@ -187,5 +195,5 @@ Led by MSgt Christy Behrens
 - Practice denying your partner through both port and IP addr.
 
 ### Closing
-- [Post Class Survey](https://forms.gle/idVnxjpb8Bj7UUAy9)
+- [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
 - Closing remarks
