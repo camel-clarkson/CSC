@@ -44,9 +44,9 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 -->
 
 ### Getting Started with Linux (Windows)
-- Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) to SSH into Linux VM on Amazon Web Services (AWS)
+- Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
-- Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
+- Connect to the Linux VM using SSH at this IPv4 address on Amazon Web Services (AWS) (to be filled in)
 
 ### Getting Started with Linux
 - Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
