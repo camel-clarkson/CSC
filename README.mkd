@@ -52,7 +52,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Reboot
 
 ### Getting Started with Linux
-- Connect to the Linux VM using SSH at this IPv4 address (to be filled in)
+- Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
