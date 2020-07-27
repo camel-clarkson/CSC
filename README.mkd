@@ -151,12 +151,6 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Lock account - passwd -l username
 -->
 
-### Apache
-- [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
-- Configuring Apache - httpd.conf
-- Making your webpage - /var/www/html/index.html
-- [default index.html](https://gist.github.com/nfarring/1113292)
-]- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
 
 ### Fun exercise (Which group can remote log in first)
 
@@ -180,15 +174,23 @@ Led by MSgt Christy Behrens
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
-### Services
+<!--### Services
 - start, stop, restart
-- /etc/init.d
+- /etc/init.d`
+-->
 
 ### Intro to Scripts
 - changeSSHPort.sh
-- setSSHBanner.sh - Banner - /etc/issue.net
+<!-- setSSHBanner.sh - Banner - /etc/issue.net n-->
 - setHTML.sh
-- getFailLog.sh - Logging Fails - /var/log/auth.log
+<!-- getFailLog.sh - Logging Fails - /var/log/auth.log -->
+
+### Apache
+- [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
+- Configuring Apache - httpd.conf
+- Making your webpage - /var/www/html/index.html
+- [default index.html](https://gist.github.com/nfarring/1113292)
+- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
 
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
