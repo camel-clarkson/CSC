@@ -61,7 +61,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Linux fundamentals
 
 - Basic Commands:\
-  For each of the commands below (each group chose four),
+  For each of the commands below (each group chose three),
   provide the following:
    1. Commands Name
    2. What it does
