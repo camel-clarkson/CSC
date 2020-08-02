@@ -131,7 +131,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - [SSH Install](https://youtu.be/0KXZ6GnVza8)
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - /etc/ssh/sshd\_config
-<!-- - SSH into partner's machine with previously created account
+<!-- - SSH into partner's machine with previously created account-->
 
 ### How to tell what doors (ports and services) are open
 - netstat -lntu
@@ -144,8 +144,13 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - lastlog
 
 ### Kicking people out
-- reboot
-- ps/kill
+- ps
+- kill
+- Put commands in background with `&`. E.g., `bash my_program.sh &`
+- Download [forever](https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever)
+- Run `forever` in background with `bash`
+- Find `forever`'s pid using `ps`
+- Kill `forever` with the `kill` command
 <!--
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
