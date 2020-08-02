@@ -157,7 +157,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 -->
 
 
-### Fun exercise (Which group can remote log in first)
+<!--### Fun exercise (Which group can remote log in first)-->
 
 ## WEDNESDAY - Network Traffic Analysis
 
