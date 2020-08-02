@@ -216,13 +216,14 @@ app.use(express.static('public'));
 - Kill the node server using the `kill` command
 
 ### Intro to Bash Scripting
-- Create script to launch node sever
+- Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 
-### Firewalls
+<!--### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
+-->
 
 ### Closing
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
