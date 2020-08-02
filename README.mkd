@@ -143,7 +143,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - who
 - lastlog
 
-### Kicking people out
+### How to kill a process
 - ps
 - kill
 - Put commands in background with `&`. E.g., `bash my_program.sh &`
