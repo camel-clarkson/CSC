@@ -181,10 +181,9 @@ Led by MSgt Christy Behrens
 <!--
 ### Intro to Scripts
 - changeSSHPort.sh
-<!-- setSSHBanner.sh - Banner - /etc/issue.net n-->
+setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
-<!-- getFailLog.sh - Logging Fails - /var/log/auth.log -->
--->
+getFailLog.sh - Logging Fails - /var/log/auth.log -->
 
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
@@ -213,7 +212,8 @@ app.use(express.static('public'));
 
 ### Intro to Bash Scripting
 - Create script to launch node sever
-- Create script to kill the node server **you** launched 
+- Create script to kill the node server **you** launched
+- Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
