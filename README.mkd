@@ -185,12 +185,30 @@ Led by MSgt Christy Behrens
 - setHTML.sh
 <!-- getFailLog.sh - Logging Fails - /var/log/auth.log -->
 
-### Apache
-- [install and run Apache web server](https://youtu.be/-q8Jj4aAWYw)
-- Configuring Apache - httpd.conf
-- Making your webpage - /var/www/html/index.html
-- [default index.html](https://gist.github.com/nfarring/1113292)
-- [Intro to HTML](https://youtu.be/jVMKUyBXiiY) 
+### Node.js
+- Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
+- Make directory `public/views`
+- Then create `public/views/index.html` [example index.html](https://gist.github.com/nfarring/1113292). This will be what you see when you land on the webpage
+- [Intro to HTML](https://youtu.be/jVMKUyBXiiY)
+- Customize your index.html to include your name somewhere on the page
+- Install the express package with `npm install express`
+- Create `app.js` in your project directory
+- The insturctors will provide you with the port to run your server on, E.g., port 8000
+- Add the following code to have the server serve your index.html to the client when they load the page
+```js
+// Handle request to serve main file
+app.get('/', function(req, res) {
+	// __dirname is the working directory of the project
+	res.sendFile(__dirname + '/public/views/index.html');
+});
+
+// allow the server to serve content from public directory
+app.use(express.static('public'));
+```
+- Run the server in the back ground using the command `node`
+- Launch firefox and navigate to localhost:<your-port-here>
+- Ensure that you see your web page
+- Kill the node server using the `kill` command
 
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
