@@ -178,12 +178,13 @@ Led by MSgt Christy Behrens
 - start, stop, restart
 - /etc/init.d`
 -->
-
+<!--
 ### Intro to Scripts
 - changeSSHPort.sh
 <!-- setSSHBanner.sh - Banner - /etc/issue.net n-->
 - setHTML.sh
 <!-- getFailLog.sh - Logging Fails - /var/log/auth.log -->
+-->
 
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
@@ -209,6 +210,10 @@ app.use(express.static('public'));
 - Launch firefox and navigate to localhost:<your-port-here>
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
+
+### Intro to Bash Scripting
+- Create script to launch node sever
+- Create script to kill the node server **you** launched 
 
 ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
