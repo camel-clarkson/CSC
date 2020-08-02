@@ -210,8 +210,8 @@ app.get('/', function(req, res) {
 // allow the server to serve content from public directory
 app.use(express.static('public'));
 ```
-- Run the server in the back ground using the command `node`
-- Launch firefox and navigate to localhost:<your-port-here>
+- Run the server in the background using the command `node`
+- Launch firefox and navigate to localhost:your-port-here
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
 
