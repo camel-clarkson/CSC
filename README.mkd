@@ -53,6 +53,12 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 ### Getting Started with Linux
 - Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
+
+## TUESDAY - Networking & System Administration
+
+### Review of Yesterday
+
+### Getting Started with Linux (Continued)
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
@@ -92,12 +98,6 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
       - tail
       - head
       - grep
-
-### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
-
-## TUESDAY - Networking & System Administration
-
-### Review of Yesterday
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 <!--
@@ -163,7 +163,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Lock account - passwd -l username
 -->
 
-
+### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 <!--### Fun exercise (Which group can remote log in first)-->
 
 ## WEDNESDAY - Network Traffic Analysis
