@@ -57,31 +57,37 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
+<!---
 - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
-- Linux fundamentals
-
-- Basic Commands:\
-  For each of the commands below (each group chose three),
-  provide the following:
+-->
+- Linux fundamentals: Basic Commands\
+  For each of the commands below (three per group), provide the following:
    1. Commands Name
    2. What it does
    3. Usefull Options
    4. 2 Examples illustrating their usage
+    - man (default)
+    Group1:
     - ls
     - cd
     - whoami
+    Group2:
     - alias
     - pwd
     - cat
+    Group3:
     - cp
     - mv
     - rm
+    Group4:
     - mkdir
     - history
-    - man
-    - less/more
-    - wget
     - wc
+    Group5:
+    - more
+    - less
+    - wget
+    Group6:
     - tail
     - head
     - grep
