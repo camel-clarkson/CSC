@@ -67,30 +67,30 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
    3. Usefull Options
    4. 2 Examples illustrating their usage
     - man (default)
-    Group1:
-    - ls
-    - cd
-    - whoami
-    Group2:
-    - alias
-    - pwd
-    - cat
-    Group3:
-    - cp
-    - mv
-    - rm
-    Group4:
-    - mkdir
-    - history
-    - wc
-    Group5:
-    - more
-    - less
-    - wget
-    Group6:
-    - tail
-    - head
-    - grep
+    - Group1:
+      - ls
+      - cd
+      - whoami
+    - Group2:
+      - alias
+      - pwd
+      - cat
+    - Group3:
+      - cp
+      - mv
+      - rm
+    - Group4:
+      - mkdir
+      - history
+      - wc
+    - Group5:
+      - more
+      - less
+      - wget
+    - Group6:
+      - tail
+      - head
+      - grep
 
 ### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 
