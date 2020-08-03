@@ -65,8 +65,8 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
   For each of the commands below (three per group), provide the following:
    1. Commands Name
    2. What it does
-   3. Usefull Options
-   4. 2 Examples illustrating their usage
+   3. Useful Options
+   4. Two examples illustrating their usage
     - man (default)
     - Group1:
       - ls
