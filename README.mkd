@@ -233,5 +233,7 @@ app.use(express.static('public'));
 -->
 
 ### Closing
+<!--
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
+-->
 - Closing remarks
