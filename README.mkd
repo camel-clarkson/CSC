@@ -54,9 +54,15 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Getting Started with Linux
 - Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
 
+<!---
+### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+-->
+
 ## TUESDAY - Networking & System Administration
 
 ### Review of Yesterday
+
+### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 
 ### Getting Started with Linux (Continued)
 - [Unix history](https://youtu.be/7FjX7r5icV8)
@@ -98,8 +104,6 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
       - tail
       - head
       - grep
-
-### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 <!--
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
 -->
@@ -121,6 +125,23 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - deluser
 - Exercise - Can you add, then delete a user?
 -->
+
+<!--### Fun exercise (Which group can remote log in first)-->
+
+## WEDNESDAY - Network Traffic Analysis
+
+### Review of Yesterday
+
+### Packet/protocol analysis 
+Led by MSgt Christy Behrens
+- OSI model and the different layers
+- Wireshark and basic uses
+- a little discussion on where this type of job is done in the real word
+- What is a byte, bit, nibble, etc.
+
+## THURSDAY - Intro to bash scripting
+
+### Review of Yesterday
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -162,24 +183,6 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
 -->
-
-### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
-<!--### Fun exercise (Which group can remote log in first)-->
-
-## WEDNESDAY - Network Traffic Analysis
-
-### Review of Yesterday
-
-### Packet/protocol analysis 
-Led by MSgt Christy Behrens
-- OSI model and the different layers
-- Wireshark and basic uses
-- a little discussion on where this type of job is done in the real word
-- What is a byte, bit, nibble, etc.
-
-## THURSDAY - Intro to bash scripting
-
-### Review of Yesterday
 
 ### Malware
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
