@@ -140,7 +140,7 @@ Led by MSgt Christy Behrens
 - Wireshark and basic uses
 - Live demo and practice
 
-## THURSDAY - Intro to Linux Admin and Network Analysis
+## THURSDAY - Network 
 
 ### Review of Yesterday
 
@@ -154,10 +154,10 @@ Led by MSgt Christy Behrens
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 -->
 
-#### Insecure Admin
+#### Insecure Connection
 - Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
 
-#### Secure Admin
+#### Secure Connection
 - [SSH](https://youtu.be/v_cVEpESG3g) 
 - service ssh status
 - /etc/ssh/sshd\_config
@@ -177,7 +177,7 @@ Led by MSgt Christy Behrens
 - who
 - lastlog
 
-### Fun exercsise: How to kill a process
+### How to kill a process
 - ps
 - kill
 - Put commands in background with `&`. e.g., `wireshark my_test.pcap &`
