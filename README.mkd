@@ -18,7 +18,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 # Outline
 
-## MONDAY - Intro to Linux
+## MONDAY - Intro to Virtual Machine and Connet to the Server
 ### Welcome and Intro
   - Teacher, Staff, and Intern
   - Student
@@ -43,22 +43,22 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 -->
 
-### Getting Started with Linux (Windows)
+### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
 
-### Getting Started with Linux (Mac)
+### Install XQuartz (for Mac user)
 - Install [XQuartz](https://www.xquartz.org/)
 - Reboot
 
-### Getting Started with Linux
+### Connect to the Server
 - Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
 
 <!---
 ### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 -->
 
-## TUESDAY - Networking & System Administration
+## TUESDAY - Intro to Linux and Basic Commands
 
 ### Review of Yesterday
 
@@ -135,11 +135,12 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Packet/protocol analysis 
 Led by MSgt Christy Behrens
 - OSI model and the different layers
-- Wireshark and basic uses
-- a little discussion on where this type of job is done in the real word
 - What is a byte, bit, nibble, etc.
+- A little discussion on where this type of job is done in the real word
+- Wireshark and basic uses
+- Live demo and practice
 
-## THURSDAY - Intro to bash scripting
+## THURSDAY - Intro to Linux Admin and Network Analysis
 
 ### Review of Yesterday
 
@@ -147,12 +148,14 @@ Led by MSgt Christy Behrens
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
 - [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
-- ifconfig
+- [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
 
+<!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
+-->
 
 #### Insecure Admin
-- Telnet, FTP, RLogin / Rsh
+- Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
 
 #### Secure Admin
 - [SSH](https://youtu.be/v_cVEpESG3g) 
@@ -206,6 +209,7 @@ setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
 getFailLog.sh - Logging Fails - /var/log/auth.log -->
 
+<!--
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
 - Make directory `public/views`
@@ -230,11 +234,14 @@ app.use(express.static('public'));
 - Launch firefox and navigate to localhost:your-port-here
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
+-->
 
+<!--
 ### Intro to Bash Scripting
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
+-->
 
 <!--### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
@@ -242,7 +249,5 @@ app.use(express.static('public'));
 -->
 
 ### Closing
-<!--
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
--->
 - Closing remarks
