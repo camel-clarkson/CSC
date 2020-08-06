@@ -156,10 +156,13 @@ Led by MSgt Christy Behrens
 
 #### Secure Admin
 - [SSH](https://youtu.be/v_cVEpESG3g) 
+- service ssh status
+- /etc/ssh/sshd\_config
+<!--  
 - [SSH Install](https://youtu.be/0KXZ6GnVza8)
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
-- /etc/ssh/sshd\_config
-<!-- - SSH into partner's machine with previously created account-->
+- SSH into partner's machine with previously created account
+-->
 
 ### How to tell what doors (ports and services) are open
 - netstat -lntu
