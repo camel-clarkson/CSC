@@ -1,4 +1,4 @@
-Cyber Summer Camp 2020 (CSC2020)
+STEM After-School Cyber Camp 2021
 ======================
 forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
 
@@ -18,7 +18,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 # Outline
 
-## MONDAY - Intro, VM and Setup
+## Week 1 - Intro, VM and Setup
 ### Welcome and Intro
   - Teacher, Staff, and Intern
   - Student
@@ -199,18 +199,17 @@ Led by MSgt Christy Behrens
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
-<!--### Services
+### Services
 - start, stop, restart
 - /etc/init.d`
--->
-<!--
+
 ### Intro to Scripts
 - changeSSHPort.sh
 setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
-getFailLog.sh - Logging Fails - /var/log/auth.log -->
+getFailLog.sh - Logging Fails - /var/log/auth.log
 
-<!--
+
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
 - Make directory `public/views`
@@ -235,19 +234,19 @@ app.use(express.static('public'));
 - Launch firefox and navigate to localhost:your-port-here
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
--->
 
-<!--
+
+
 ### Intro to Bash Scripting
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
--->
 
-<!--### Firewalls
+
+### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
--->
+
 
 ### Closing
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
