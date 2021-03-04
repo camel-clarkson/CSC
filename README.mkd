@@ -18,7 +18,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 # Outline
 
-## Week 1 - Intro, VM and Setup
+## Week 1 - Intro and Setup
 ### Welcome and Intro
   - Teacher, Staff, and Intern
   - Student
@@ -29,19 +29,6 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
     - What major do you want to choose in college?
 - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6)
 
-### Intro to Virtual Machines
-  - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
-  - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
-  <!---
-  - Install [PUTTY](https://www.putty.org/) (if using Windows)
-  - Connect to Linux Virtual Machine on Amazon Web Services (AWS) using SSH
-  -->
-  
-<!---
-  - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
-     - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
-     - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
--->
 
 ### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
@@ -54,25 +41,39 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 ### Connect to the Server
 - Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
 
-<!---
-### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
--->
 
-## TUESDAY - Intro to Linux and Basic Commands
-
-### Review of Yesterday
-
+# Week 2 - Intro to Linux
+### Intro to Virtual Machines
+  - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
+  - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
+  <!---
+  - Install [PUTTY](https://www.putty.org/) (if using Windows)
+  - Connect to Linux Virtual Machine on Amazon Web Services (AWS) using SSH
+  -->
+  
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-
-### Getting Started with Linux (Continued)
+- How do you find your home directory?
+- How do you navigate the file system?
+  
+### Getting Started with Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
-<!---
 - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
 - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
+  
+<!---
+  - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
+     - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
+     - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 -->
 
+### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+
+## Week 3 - Intro to the Command Line
+
+
+### Getting Started with Linux (Continued)
 - Linux fundamentals: Basic Commands\
   For each of the commands below (three per group), provide the following:
    1. Commands Name
@@ -104,6 +105,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
       - tail
       - head
       - grep
+
 <!--
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
 -->
@@ -128,21 +130,22 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 <!--### Fun exercise (Which group can remote log in first)-->
 
-## WEDNESDAY - Network Traffic Analysis
+## Week 4 - More On the Command Line
 
-### Review of Yesterday
+### Review
 
-### Packet/protocol analysis 
-Led by MSgt Christy Behrens
-- OSI model and the different layers
-- What is a byte, bit, nibble, etc.
-- A little discussion on where this type of job is done in the real word
-- Wireshark and basic uses
-- Live demo and practice
+### Regular Expressions (regex)
+- Powerful tool for searching
+- Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
 
-## THURSDAY - Network 
+### Exercise
+- Download the `data/week4_data.csv` file from the github page
+- This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
+- Write a command that returns all the entries of students who had an `A` for their `grade`
+- Write a command that returns only the `email` and `grade` of students
+- Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
 
-### Review of Yesterday
+## Week 5 - Networking: Introduction
 
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -177,6 +180,9 @@ Led by MSgt Christy Behrens
 - who
 - lastlog
 
+
+## Week 6 - Networking: Intro to Basic System Administration
+
 ### How to kill a process
 - ps
 - kill
@@ -201,7 +207,7 @@ Led by MSgt Christy Behrens
 
 ### Services
 - start, stop, restart
-- /etc/init.d`
+- `/etc/init.d`
 
 ### Intro to Scripts
 - changeSSHPort.sh
@@ -209,6 +215,8 @@ setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
 getFailLog.sh - Logging Fails - /var/log/auth.log
 
+
+## Week 7 - Networking: Making Your Own Server
 
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
@@ -235,18 +243,46 @@ app.use(express.static('public'));
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
 
-
+# Week 8 Bash Scripting
 
 ### Intro to Bash Scripting
+- We can put series of commands in a script and run it
+- Importantly we can store the outputs of commands in variables. E.g.,
+```bash
+id=$(whoami)
+echo $id
+```
+- We surround commands with `$(...)`
+- Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
+
+### Exercise
+- Write the following hello world script
+```bash
+#!/bin/bash
+
+echo "Hello, World!"
+```
+- Now modify to ask for a name like so
+```bash
+#!/bin/bash
+
+echo "Write your name"
+read name
+
+echo "Hello, $name"
+```
+- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
+
+### Practical Demonstration
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 
 
-### Firewalls
+<!-- ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
-
+-->
 
 ### Closing
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
