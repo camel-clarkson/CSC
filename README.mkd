@@ -39,7 +39,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Reboot
 
 ### Connect to the Server
-- Connect to the Linux VM using SSH at this IPv4 address: 13.58.35.98
+- Connect to the Linux VM using SSH at this IPv4 address: 3.12.96.179 
 
 
 # Week 2 - Intro to Linux
