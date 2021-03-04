@@ -68,7 +68,11 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 -->
 
-### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
+### Editing Files in Linux
+- Use the command `vim <filename>` to edit files
+- Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
+- Take save and exit a file type `:wq` for write and quit
 
 ## Week 3 - Intro to the Command Line
 
