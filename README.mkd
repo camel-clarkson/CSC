@@ -27,16 +27,17 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
     - School
     - What do you expect to learn?
     - What major do you want to choose in college?
-- [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6)
+<!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6)-->
 
 
 ### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
 
-### Install XQuartz (for Mac user)
+<!-- ### Install XQuartz (for Mac user)
 - Install [XQuartz](https://www.xquartz.org/)
 - Reboot
+-->
 
 ### Connect to the Server
 - Connect to the Linux VM using SSH at this IPv4 address: 3.12.96.179 
