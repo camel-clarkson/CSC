@@ -43,7 +43,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 - Connect to the Linux VM using SSH at this IPv4 address: 3.12.96.179 
 
 
-# Week 2 - Intro to Linux
+## Week 2 - Intro to Linux
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?](https://www.youtube.com/watch?v=yIVXjl4SwVo)
   - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
@@ -248,7 +248,7 @@ app.use(express.static('public'));
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
 
-# Week 8 Bash Scripting
+## Week 8 Bash Scripting
 
 ### Intro to Bash Scripting
 - We can put series of commands in a script and run it
