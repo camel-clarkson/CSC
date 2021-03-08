@@ -1,6 +1,6 @@
 STEM After-School Cyber Camp 2021
 ======================
-forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
+<!-- forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
 
 # Summary and Audience
 STEM After-School Cyber Camp 2021 is designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 9-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. STEM After-School Cyber Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
@@ -41,11 +41,11 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ### Connect to the Server
 - Distribute username and password
-- Connect to the Linux server using SSH at this IP address: 3.12.96.179 
+- Connect to the Linux server using SSH at this IP address: 3.12.96.179
 
 ### Exercise: Finding the Secret File
 - Linux 'cat' command
-- Find the secret file
+- Find the secret file, _hint use the command_ `ls -a`
 
 ### Intro to Unix/Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
@@ -170,8 +170,8 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 #### Secure Connection
 - [SSH](https://youtu.be/v_cVEpESG3g) 
 - service ssh status
-- /etc/ssh/sshd\_config
-<!--  
+<!-- 
+- /etc/ssh/sshd\_config 
 - [SSH Install](https://youtu.be/0KXZ6GnVza8)
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account
@@ -186,9 +186,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - w (maybe the most useful command you will learn)
 - who
 - lastlog
-
-
-## Week 6 - Networking: Intro to Basic System Administration
 
 ### How to kill a process
 - ps
@@ -212,46 +209,19 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
-### Services
+<!--### Services
 - start, stop, restart
 - `/etc/init.d`
-
+-->
+<!--
 ### Intro to Scripts
 - changeSSHPort.sh
 setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
 getFailLog.sh - Logging Fails - /var/log/auth.log
+-->
 
-
-## Week 7 - Networking: Making Your Own Server
-
-### Node.js
-- Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
-- Make directory `public/views`
-- Then create `public/views/index.html` [example index.html](https://gist.github.com/nfarring/1113292). This will be what you see when you land on the webpage
-- [Intro to HTML](https://youtu.be/jVMKUyBXiiY)
-- Customize your index.html to include your name somewhere on the page
-- Install the express package with `npm install express`
-- Create `app.js` in your project directory
-- The insturctors will provide you with the port to run your server on, E.g., port 8000
-- Add the following code to have the server serve your index.html to the client when they load the page
-```js
-// Handle request to serve main file
-app.get('/', function(req, res) {
-	// __dirname is the working directory of the project
-	res.sendFile(__dirname + '/public/views/index.html');
-});
-
-// allow the server to serve content from public directory
-app.use(express.static('public'));
-```
-- Run the server in the background using the command `node`
-- Launch firefox and navigate to localhost:your-port-here
-- Ensure that you see your web page
-- Kill the node server using the `kill` command
-
-## Week 8 Bash Scripting
-
+## Week 6 Bash Scripting
 ### Intro to Bash Scripting
 - We can put series of commands in a script and run it
 - Importantly we can store the outputs of commands in variables. E.g.,
@@ -280,9 +250,40 @@ echo "Hello, $name"
 ```
 - Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
 
-### Practical Demonstration
+## Week 7 - Networking: Making Your Own Server
+
+### Node.js
+- Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
+- Make directory `public/views`
+- Then create `public/views/index.html` [example index.html](https://gist.github.com/nfarring/1113292). This will be what you see when you land on the webpage
+- [Intro to HTML](https://youtu.be/jVMKUyBXiiY)
+- Customize your index.html to include your name somewhere on the page
+- Install the express package with `npm install express`
+- Create `app.js` in your project directory
+- The insturctors will provide you with the port to run your server on
+- Add the following code to have the server serve your index.html to the client when they load the page
+```js
+// Handle request to serve main file
+app.get('/', function(req, res) {
+	// __dirname is the working directory of the project
+	res.sendFile(__dirname + '/public/views/index.html');
+});
+
+// allow the server to serve content from public directory
+app.use(express.static('public'));
+```
+- Run the server in the background using the command `node`
+- Launch firefox and navigate to localhost:your-port-here
+- Ensure that you see your web page
+- Kill the node server using the `kill` command
+
+## Week 8 Bash Scripting (Part 2)
+
+### Exercises
+- Run the command `ps aux`
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
+- **TODO**
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 
 
