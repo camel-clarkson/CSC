@@ -44,8 +44,10 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Connect to the Linux server using SSH at this IP address: 3.12.96.179
 
 ### Exercise: Finding the Secret File
-- Linux 'cat' command
-- Find the secret file, _hint use the command_ `ls -a`
+- Linux `cat <filename>` command to see the contents of file
+- Run `ls` to see the list of files in the current directory
+- Now try `ls -a` what is different?
+- Find the secret file and message of the instructors with its content on Zoom
 
 ### Intro to Unix/Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
