@@ -3,10 +3,10 @@ STEM After-School Cyber Camp 2021
 forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
 
 # Summary and Audience
-CSC2020 is a STEM summer camp designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 8-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. Cyber Summer Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
+STEM After-School Cyber Camp 2021 is designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 9-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. STEM After-School Cyber Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
 
 # Objective
-Prepare students to understand basic to intermediate level concepts in cybersecurity. The camp begins with the campers learning Linux operating system and Linux commands. Students will then learn how to administer a computer system, while providing user services and maintaining security. This year we will introduce a network traffic analysis component as well.
+Prepare students to understand basic to intermediate-level concepts in cybersecurity. The camp begins with the campers learning Linux operating system and Linux commands. Students will then learn how to administer a computer system, while providing user services and maintaining security.
 
 # Goals
 - Have Fun Learning
@@ -20,7 +20,7 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 
 ## Week 1 - Intro and Setup
 ### Welcome and Intro
-  - Teacher, Staff, and Intern
+  - Teacher and Staff
   - Student
     - Name
     - Grade
@@ -40,8 +40,12 @@ Prepare students to understand basic to intermediate level concepts in cybersecu
 -->
 
 ### Connect to the Server
+- Distribute username and password
 - Connect to the Linux VM using SSH at this IPv4 address: 3.12.96.179 
 
+### Exervise: Finding the Seceret File
+- Linux 'cat' command
+- Find the secret file
 
 ## Week 2 - Intro to Linux
 ### Intro to Virtual Machines
