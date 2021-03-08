@@ -80,7 +80,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
 
-## Week 3 - Intro to the Command Line
+<!--## Week 3 - Intro to the Command Line
 
 ### Getting Started with Linux (Continued)
 - Linux fundamentals: Basic Commands\
@@ -139,7 +139,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 <!--### Fun exercise (Which group can remote log in first)-->
 
-## Week 4 - More On the Command Line
+<!-- ## Week 4 - More On the Command Line
 
 ### Review
 
@@ -223,7 +223,7 @@ setSSHBanner.sh - Banner - /etc/issue.net n
 getFailLog.sh - Logging Fails - /var/log/auth.log
 -->
 
-## Week 6 Bash Scripting
+<!-- ## Week 6 Bash Scripting
 ### Intro to Bash Scripting
 - We can put series of commands in a script and run it
 - Importantly we can store the outputs of commands in variables. E.g.,
@@ -252,7 +252,7 @@ echo "Hello, $name"
 ```
 - Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
 
-## Week 7 - Networking: Making Your Own Server
+<!-- ## Week 7 - Networking: Making Your Own Server
 
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
@@ -279,7 +279,7 @@ app.use(express.static('public'));
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
 
-## Week 8 Bash Scripting (Part 2)
+<!-- ## Week 8 Bash Scripting (Part 2)
 
 ### Exercises
 - Run the command `ps aux`
@@ -297,4 +297,3 @@ app.use(express.static('public'));
 
 ### Closing
 - Closing remarks
--->
