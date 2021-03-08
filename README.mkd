@@ -270,5 +270,5 @@ app.use(express.static('public'));
 - Practice denying your partner through both port and IP addr.
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
 -->
-### Closing
+<!--### Closing
 - Closing remarks
