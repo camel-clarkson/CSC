@@ -40,7 +40,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 -->
 
 ### Connect to the Server
-- Distribute username and password
+- Username is `<firstname>_<lastname>` all in lowercase and the password is `passwd`
 - Connect to the Linux server using SSH at this IP address: 3.12.96.179
 
 ### Exercise: Finding the Secret File
