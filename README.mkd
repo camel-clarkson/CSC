@@ -1,6 +1,6 @@
 STEM After-School Cyber Camp 2021
 ======================
-<!-- forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)
+<!-- forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)-->
 
 # Summary and Audience
 STEM After-School Cyber Camp 2021 is designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 9-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. STEM After-School Cyber Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
