@@ -63,17 +63,14 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
   - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
   -->
-  
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
 - How do you navigate the file system?
-  
 <!---
   - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
      - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
 -->
-
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 ### Editing Files in Linux
 - Use the command `vim <filename>` to edit files
@@ -81,7 +78,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Take save and exit a file type `:wq` for write and quit
 
 <!--## Week 3 - Intro to the Command Line
-
 ### Getting Started with Linux (Continued)
 - Linux fundamentals: Basic Commands\
   For each of the commands below (three per group), provide the following:
@@ -142,33 +138,26 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!-- ## Week 4 - More On the Command Line
 
 ### Review
-
 ### Regular Expressions (regex)
 - Powerful tool for searching
 - Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
-
 ### Exercise
 - Download the `data/week4_data.csv` file from the github page
 - This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
 - Write a command that returns all the entries of students who had an `A` for their `grade`
 - Write a command that returns only the `email` and `grade` of students
 - Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
-
 ## Week 5 - Networking: Introduction
-
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
 - [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
 - [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
-
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 -->
-
 #### Insecure Connection
 - Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
-
 #### Secure Connection
 - [SSH](https://youtu.be/v_cVEpESG3g) 
 - service ssh status
@@ -178,17 +167,14 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account
 -->
-
 ### How to tell what doors (ports and services) are open
 - netstat -lntu
 - nmap localhost
 - [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
-
 ### How to detect if someone is on your machine?
 - w (maybe the most useful command you will learn)
 - who
 - lastlog
-
 ### How to kill a process
 - ps
 - kill
@@ -202,7 +188,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
 -->
-
 ### Malware
 <!--
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
@@ -253,7 +238,6 @@ echo "Hello, $name"
 - Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
 
 <!-- ## Week 7 - Networking: Making Your Own Server
-
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
 - Make directory `public/views`
@@ -280,20 +264,16 @@ app.use(express.static('public'));
 - Kill the node server using the `kill` command
 
 <!-- ## Week 8 Bash Scripting (Part 2)
-
 ### Exercises
 - Run the command `ps aux`
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 - **TODO**
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
-
-
 <!-- ### Firewalls
 - [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
 -->
-
 ### Closing
 - Closing remarks
