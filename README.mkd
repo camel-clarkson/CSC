@@ -62,7 +62,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - Install [PUTTY](https://www.putty.org/) (if using Windows)
   - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
   - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
-  -->
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
 - How do you navigate the file system?
@@ -70,9 +69,8 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
      - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
--->
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
-### Editing Files in Linux
+<!--### Editing Files in Linux
 - Use the command `vim <filename>` to edit files
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
@@ -136,7 +134,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!--### Fun exercise (Which group can remote log in first)-->
 
 <!-- ## Week 4 - More On the Command Line
-
 ### Review
 ### Regular Expressions (regex)
 - Powerful tool for searching
@@ -156,7 +153,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 -->
-#### Insecure Connection
+<!--#### Insecure Connection
 - Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
 #### Secure Connection
 - [SSH](https://youtu.be/v_cVEpESG3g) 
@@ -167,7 +164,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account
 -->
-### How to tell what doors (ports and services) are open
+<!--### How to tell what doors (ports and services) are open
 - netstat -lntu
 - nmap localhost
 - [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
@@ -188,11 +185,11 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
 -->
-### Malware
+<!--### Malware
 <!--
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
 -->
-- [Malware](https://youtu.be/juw6sPEGuEk)
+<!--- [Malware](https://youtu.be/juw6sPEGuEk)
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
@@ -207,7 +204,6 @@ setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
 getFailLog.sh - Logging Fails - /var/log/auth.log
 -->
-
 <!-- ## Week 6 Bash Scripting
 ### Intro to Bash Scripting
 - We can put series of commands in a script and run it
@@ -218,7 +214,6 @@ echo $id
 ```
 - We surround commands with `$(...)`
 - Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
-
 ### Exercise
 - Write the following hello world script
 ```bash
