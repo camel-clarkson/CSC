@@ -41,11 +41,16 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ### Connect to the Server
 - Distribute username and password
-- Connect to the Linux VM using SSH at this IPv4 address: 3.12.96.179 
+- Connect to the Linux server using SSH at this IP address: 3.12.96.179 
 
 ### Exercise: Finding the Seceret File
 - Linux 'cat' command
 - Find the secret file
+
+### Intro to Unix/Linux
+- [Unix history](https://youtu.be/7FjX7r5icV8)
+- [The story of Linux](https://youtu.be/5ocq6_3-nEw)
+- [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 
 ## Week 2 - Intro to Linux
   <!---
@@ -53,15 +58,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - [What is a Virtual Machine (VM)?]
   - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
   - Install [PUTTY](https://www.putty.org/) (if using Windows)
-  - Connect to Linux Virtual Machine on Amazon Web Services (AWS) using SSH
+  - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
+  - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
   -->
-  
-### Getting Started with Linux
-- [Unix history](https://youtu.be/7FjX7r5icV8)
-- [The story of Linux](https://youtu.be/5ocq6_3-nEw)
-- [How Linux is built](https://youtu.be/yVpbFMhOAwE)
-- What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
-- [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
   
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
@@ -80,7 +79,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Take save and exit a file type `:wq` for write and quit
 
 ## Week 3 - Intro to the Command Line
-
 
 ### Getting Started with Linux (Continued)
 - Linux fundamentals: Basic Commands\
