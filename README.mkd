@@ -54,7 +54,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 
-## Week 2 - Intro to Linux
+<!--## Week 2 - Intro to Linux
   <!---
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?]
@@ -297,3 +297,4 @@ app.use(express.static('public'));
 
 ### Closing
 - Closing remarks
+-->
