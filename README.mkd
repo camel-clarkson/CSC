@@ -43,7 +43,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Distribute username and password
 - Connect to the Linux server using SSH at this IP address: 3.12.96.179 
 
-### Exercise: Finding the Seceret File
+### Exercise: Finding the Secret File
 - Linux 'cat' command
 - Find the secret file
 
