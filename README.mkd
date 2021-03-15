@@ -70,10 +70,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 
-### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-- How do you find your home directory?
-- How do you navigate the file system?
-
 ### Editing Files in Linux
 - Use the command `vim <filename>` to edit files
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
@@ -108,6 +104,10 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - tail
       - head
       - passwd
+
+### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
+- How do you find your home directory?
+- How do you navigate the file system?
 
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 
