@@ -84,6 +84,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - man (default)
       - ls
       - cat
+      - passwd
    - Group1:
       - cd
       - whoami
@@ -103,7 +104,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
    - Group5:
       - tail
       - head
-      - passwd
+      - >
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
