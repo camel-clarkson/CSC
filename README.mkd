@@ -27,7 +27,8 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
     - School
     - What do you expect to learn?
     - What major do you want to choose in college?
-<!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6)-->
+<!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6) -->
+
 
 
 ### Install MobaXterm (for Windows user)
@@ -39,6 +40,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Reboot
 -->
 
+### Open and use the Terminal app (for Mac user)
+- [Instructions](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)
+
 ### Connect to the Server
 - Username is `<firstname>_<lastname>` all in lowercase and the password is `passwd`
 - Connect to the Linux server using SSH at this IP address: 3.12.96.179
@@ -49,12 +53,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Now try `ls -a` what is different?
 - Find the secret file and message of the instructors with its content on Zoom
 
-### Intro to Unix/Linux
-- [Unix history](https://youtu.be/7FjX7r5icV8)
-- [The story of Linux](https://youtu.be/5ocq6_3-nEw)
-- [How Linux is built](https://youtu.be/yVpbFMhOAwE)
-
-<!--## Week 2 - Intro to Linux
+## Week 2 - Intro to Linux and Command Line
   <!---
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?]
@@ -62,52 +61,61 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - Install [PUTTY](https://www.putty.org/) (if using Windows)
   - What happens when you press Power - [Boot Process](https://youtu.be/RgLMBXg5b9I)
   - [Linux Boot Process](https://www.thegeekstuff.com/2011/02/linux-boot-process)
-### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-- How do you find your home directory?
-- How do you navigate the file system?
-<!---
   - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
      - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
-<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
-<!--### Editing Files in Linux
+ -->
+### Intro to Unix/Linux
+- [Unix history](https://youtu.be/7FjX7r5icV8)
+- [The story of Linux](https://youtu.be/5ocq6_3-nEw)
+- [How Linux is built](https://youtu.be/yVpbFMhOAwE)
+
+### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
+- How do you find your home directory?
+- How do you navigate the file system?
+
+### Editing Files in Linux
 - Use the command `vim <filename>` to edit files
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
 
-<!--## Week 3 - Intro to the Command Line
-### Getting Started with Linux (Continued)
-- Linux fundamentals: Basic Commands\
+### Linux fundamentals: Basic Commands
   For each of the commands below (three per group), provide the following:
    1. Commands Name
    2. What it does
    3. Useful Options
-   4. Two examples illustrating their usage
-    - man (default)
-    - Group1:
+   4. A few examples illustrating their usage
+      - man (default)
       - ls
+      - cat
+   - Group1:
       - cd
       - whoami
-    - Group2:
-      - alias
+      - mkdir
+   - Group2:
+      - who
       - pwd
-      - cat
-    - Group3:
+      - history
+   - Group3:
       - cp
       - mv
       - rm
-    - Group4:
-      - mkdir
-      - history
+   - Group4:
       - wc
-    - Group5:
       - more
       - less
-      - wget
-    - Group6:
+   - Group5:
       - tail
       - head
-      - grep
+      - passwd
+
+<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
+
+<!--## Week 3 - Intro to the Command Line
+### Getting Started with Linux (Continued)
+- grep 
+- alias
+- wget
 
 <!--
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
