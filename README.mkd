@@ -70,11 +70,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 
-### Editing Files in Linux
-- Use the command `vim <filename>` to edit files
-- Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
-- Take save and exit a file type `:wq` for write and quit
-
 ### Linux fundamentals: Basic Commands
   For each of the commands below (three per group), provide the following:
    1. Commands Name
@@ -105,6 +100,11 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - tail
       - head
       - echo
+
+### Editing Files in Linux
+- Use the command `vim <filename>` to edit files
+- Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
+- Take save and exit a file type `:wq` for write and quit
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
