@@ -101,22 +101,27 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - head
       - echo
 
-### Editing Files in Linux
-- Use the command `vim <filename>` to edit files
-- Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
-- Take save and exit a file type `:wq` for write and quit
+## Week 3 - Intro to the Command Line
+
+### Getting Started with Linux (Continued)
+- Review basic commands from last week
+- [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
 - How do you navigate the file system?
 
-<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
+### Editing Files in Linux
+- Use the command `vim <filename>` to edit files
+- Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
+- Take save and exit a file type `:wq` for write and quit
 
-<!--## Week 3 - Intro to the Command Line
-### Getting Started with Linux (Continued)
+<!--
 - grep 
 - alias
 - wget
+
+<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 
 <!--
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
