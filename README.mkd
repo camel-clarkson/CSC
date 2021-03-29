@@ -120,7 +120,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
 
-### cat and chmod
+### Using VIM to write your first c program
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
 
 <!--
