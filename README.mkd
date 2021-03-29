@@ -111,10 +111,19 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - How do you find your home directory?
 - How do you navigate the file system?
 
+
+
+## Week 4 - More On the Command Line
+
+### Linux File System (Continued)
+- How do you find your home directory?
+- How do you navigate the file system?
+
 ### Editing Files in Linux
 - Use the command `vim <filename>` to edit files
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
+- grep 
 
 <!--
 - grep 
