@@ -123,8 +123,10 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Use the command `vim <filename>` to edit files
 - Vim is a very powerful editor, see [vim tutorial](https://www.openvim.com/)
 - Take save and exit a file type `:wq` for write and quit
-- grep 
 
+### cat and chmod
+- [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
+- [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
 <!--
 - grep 
 - alias
