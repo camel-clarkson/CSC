@@ -108,10 +108,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-- How do you find your home directory?
-- How do you navigate the file system?
-
-
 
 ## Week 4 - More On the Command Line
 
@@ -126,12 +122,12 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ### cat and chmod
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
-- [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
+
 <!--
 - grep 
 - alias
 - wget
-
+- [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 
 <!--
