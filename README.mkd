@@ -123,8 +123,15 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 ### Using VIM to write your first C program
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
 
+
+## Week 5 - Grep and Regular Expression
+### Review
+### grep
+### Regular Expressions (regex)
+- Powerful tool for searching
+- Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
+
 <!--
-- grep 
 - alias
 - wget
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
