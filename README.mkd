@@ -126,7 +126,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ## Week 5 - Grep and Regular Expression
 ### Review
-### Access Permission
+### [Access Permission](https://en.wikipedia.org/wiki/File-system_permissions)
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
 ### Search for Text
 - grep
