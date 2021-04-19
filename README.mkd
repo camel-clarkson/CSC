@@ -130,6 +130,11 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
 ### Search for Text
 - grep
+
+
+## Week 6 - Grep and Regular Expression (continued)
+### grep
+- search in the dictionary /usr/share/dict/words  
 ### Regular Expressions (regex)
 - Powerful tool for searching
 - Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
@@ -166,9 +171,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 <!-- ## Week 4 - More On the Command Line
 ### Review
-### Regular Expressions (regex)
-- Powerful tool for searching
-- Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
+
 ### Exercise
 - Download the `data/week4_data.csv` file from the github page
 - This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
@@ -181,6 +184,8 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
 - [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
 - [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
+-->
+
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 -->
