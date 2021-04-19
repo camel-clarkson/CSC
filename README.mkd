@@ -138,6 +138,14 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 ### Regular Expressions (regex)
 - Powerful tool for searching
 - Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
+### Exercise
+- Download the `week4_data.csv` file
+- This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
+- Write a command that returns all the entries of students who had an `A` for their `grade`
+- Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
+
+<!---
+- Write a command that returns only the `email` and `grade` of students
 
 <!--
 - alias
@@ -172,12 +180,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!-- ## Week 4 - More On the Command Line
 ### Review
 
-### Exercise
-- Download the `data/week4_data.csv` file from the github page
-- This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
-- Write a command that returns all the entries of students who had an `A` for their `grade`
-- Write a command that returns only the `email` and `grade` of students
-- Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
 ## Week 5 - Networking: Introduction
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
