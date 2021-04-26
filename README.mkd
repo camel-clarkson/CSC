@@ -210,9 +210,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
--->
-
-
 
 ### How to kill a process
 - ps
@@ -223,6 +220,10 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
+
+-->
+
+
 <!--
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
