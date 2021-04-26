@@ -100,6 +100,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - tail
       - head
       - echo
+<!--
+- alias
+- wget
 
 ## Week 3 - Intro to the Command Line
 
@@ -143,6 +146,10 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
 - Write a command that returns all the entries of students who had an `A` for their `grade`
 - Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
+<!---
+- Write a command that returns only the `email` and `grade` of students
+-->
+<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 
 ## Week 7 - Networking: Introduction
  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
@@ -152,16 +159,31 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
 - [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
 
-<!---
-- Write a command that returns only the `email` and `grade` of students
+#### Insecure Connection
+- Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
+
+#### Secure Connection
+- [SSH](https://youtu.be/v_cVEpESG3g) 
+- service ssh status
+<!-- 
+- /etc/ssh/sshd\_config 
+- [SSH Install](https://youtu.be/0KXZ6GnVza8)
+- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
+- SSH into partner's machine with previously created account
+-->
+
+### How to tell what doors (ports and services) are open
+- netstat
+- nmap localhost
+- [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
+
+### How to detect if someone is on your machine?
+- w
+- who
+- lastlog
 
 <!--
-- alias
-- wget
-
-<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
-
-<!--
+- netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
 -->
 
@@ -188,25 +210,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 -->
-<!--#### Insecure Connection
-- Telnet, FTP, [RLogin/Rsh](https://sourcedaddy.com/networking/rlogin-rsh-and-rcp.html)
-#### Secure Connection
-- [SSH](https://youtu.be/v_cVEpESG3g) 
-- service ssh status
-<!-- 
-- /etc/ssh/sshd\_config 
-- [SSH Install](https://youtu.be/0KXZ6GnVza8)
-- [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
-- SSH into partner's machine with previously created account
--->
-<!--### How to tell what doors (ports and services) are open
-- netstat -lntu
-- nmap localhost
-- [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
-### How to detect if someone is on your machine?
-- w (maybe the most useful command you will learn)
-- who
-- lastlog
+
+
+
 ### How to kill a process
 - ps
 - kill
