@@ -144,6 +144,14 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Write a command that returns all the entries of students who had an `A` for their `grade`
 - Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
 
+## Week 7 - Networking: Introduction
+ - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
+### Networking
+- [IP Addresses](https://youtu.be/7_-qWlvQQtY)
+- [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
+- [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
+- [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
+
 <!---
 - Write a command that returns only the `email` and `grade` of students
 
@@ -176,17 +184,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 -->
 
 <!--### Fun exercise (Which group can remote log in first)-->
-
-<!-- ## Week 4 - More On the Command Line
-### Review
-
-## Week 5 - Networking: Introduction
-### Networking
-- [IP Addresses](https://youtu.be/7_-qWlvQQtY)
-- [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
-- [Common Ports](http://www.meridianoutpost.com/resources/articles/well-known-tcpip-ports.php)
-- [ifconfig](https://goinbigdata.com/demystifying-ifconfig-and-network-interfaces-in-linux/)
--->
 
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
