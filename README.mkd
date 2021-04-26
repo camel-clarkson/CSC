@@ -100,6 +100,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
       - tail
       - head
       - echo
+
 <!--
 - alias
 - wget
@@ -183,9 +184,25 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - who
 - lastlog
 
+### How to kill a process
+- ps
+- kill
+- Put commands in background with `&`
+- wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
+- chmod of the file property
+- Run `forever` in background
+- Find `forever`'s pid using `ps`
+- Kill `forever` with the `kill` command
+
+### Malware
+ -[Malware](https://youtu.be/juw6sPEGuEk)
+- [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
+- [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
+
 <!--
 - netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
+- [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
 -->
 
 <!--
@@ -211,30 +228,12 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!--  
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
-### How to kill a process
-- ps
-- kill
-- Put commands in background with `&`. e.g., `wireshark my_test.pcap &`
-- Download [forever](https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever)
-- chmod of the file property
-- Run `forever` in background
-- Find `forever`'s pid using `ps`
-- Kill `forever` with the `kill` command
-
 -->
-
 
 <!--
 - pkill -KILL/STOP -u username
 - Lock account - passwd -l username
 -->
-<!--### Malware
-<!--
-- [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
--->
-<!--- [Malware](https://youtu.be/juw6sPEGuEk)
-- [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
-- [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
 <!--### Services
 - start, stop, restart
