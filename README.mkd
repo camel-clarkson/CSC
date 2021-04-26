@@ -103,6 +103,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!--
 - alias
 - wget
+-->
 
 ## Week 3 - Intro to the Command Line
 
