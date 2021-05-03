@@ -133,9 +133,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 ### Review
 ### [Access Permission](https://en.wikipedia.org/wiki/File-system_permissions)
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
-### Search for Text
-- grep
-
+### grep
+- [How To Use grep Command](https://phoenixnap.com/kb/grep-command-linux-unix-examples)
+- [A Beginner’s Guide To Grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/)
 
 ## Week 6 - Grep and Regular Expression (continued)
 ### grep
