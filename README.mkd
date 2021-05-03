@@ -188,22 +188,51 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - ps
 - kill
 - Put commands in background with `&`
-- wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
+- wget `forever`
+<!-- - wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever -->
 - chmod of the file property
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
 
-## Week 8 - Malware and Bash Script
+## Week 8 - Malware and Bash Scripting
 
 ### Malware
 - [Malware](https://youtu.be/juw6sPEGuEk)
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
+### Intro to Bash Scripting
+- We can put series of commands in a script and run it
+- Importantly we can store the outputs of commands in variables. E.g.,
+```bash
+id=$(whoami)
+echo $id
+```
+- We surround commands with `$(...)`
+- Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
+
+### Exercise
+- Write the following hello world script
+```bash
+#!/bin/bash
+
+echo "Hello, World!"
+```
+- Now modify to ask for a name like so
+```bash
+#!/bin/bash
+
+echo "Write your name"
+read name
+
+echo "Hello, $name"
+```
+- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
 
 ### Feeddback Form
 - please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
+
 <!--
 - netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
@@ -251,33 +280,6 @@ setSSHBanner.sh - Banner - /etc/issue.net n
 - setHTML.sh
 getFailLog.sh - Logging Fails - /var/log/auth.log
 -->
-<!-- ## Week 6 Bash Scripting
-### Intro to Bash Scripting
-- We can put series of commands in a script and run it
-- Importantly we can store the outputs of commands in variables. E.g.,
-```bash
-id=$(whoami)
-echo $id
-```
-- We surround commands with `$(...)`
-- Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
-### Exercise
-- Write the following hello world script
-```bash
-#!/bin/bash
-
-echo "Hello, World!"
-```
-- Now modify to ask for a name like so
-```bash
-#!/bin/bash
-
-echo "Write your name"
-read name
-
-echo "Hello, $name"
-```
-- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
 
 <!-- ## Week 7 - Networking: Making Your Own Server
 ### Node.js
