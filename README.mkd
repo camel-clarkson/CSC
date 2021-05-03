@@ -204,7 +204,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ### Intro to Bash Scripting
 - We can put series of commands in a script and run it
-- Importantly we can store the outputs of commands in variables. E.g.,
+- Importantly we can store the outputs of commands in variables. Please try the following commands on command line,
 ```bash
 id=$(whoami)
 echo $id
@@ -213,13 +213,18 @@ echo $id
 - Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
 
 ### Exercise
-- Write the following hello world script
+- Write the following hello world script using vim editor
+- Remember to give the bash script a name, like mytest.sh
 ```bash
 #!/bin/bash
 
 echo "Hello, World!"
 ```
-- Now modify to ask for a name like so
+- Run it by type
+```bash
+bash mytest.sh
+- Anohter way to run it is to use `chmod` command to make the file executable first then run it.  
+-Next, modify the script to ask user to input a name
 ```bash
 #!/bin/bash
 
@@ -228,10 +233,11 @@ read name
 
 echo "Hello, $name"
 ```
-- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `data/week4_data.csv`
+- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `week4_data.csv`
 
-### Feeddback Form
-- please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
+### Closing
+- Closing remarks
+- Please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
 
 <!--
 - netstat -lntu
@@ -315,9 +321,7 @@ app.use(express.static('public'));
 - **TODO**
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 <!-- ### Firewalls
-- [UFW](https://www.youtube.com/watch?v=cscIe9fYKMU)
 - Practice denying your partner through both port and IP addr.
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
 -->
-<!--### Closing
-- Closing remarks
+
