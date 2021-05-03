@@ -194,11 +194,16 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
 
+## Week 8 - Malware and Bash Script
+
 ### Malware
 - [Malware](https://youtu.be/juw6sPEGuEk)
 - [Virus vs Worm vs Trojan Horse](https://youtu.be/y8a3QoTg4VQ)
 - [Ransomware](https://www.youtube.com/watch?v=nNNDrS6-5Vg)
 
+
+### Feeddback Form
+- please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
 <!--
 - netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
