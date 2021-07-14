@@ -30,16 +30,16 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 <!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6) -->
 
 <!--
-
 ### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
+-->
 
 <!-- ### Install XQuartz (for Mac user)
 - Install [XQuartz](https://www.xquartz.org/)
 - Reboot
 -->
-
+<!--
 ### Open and use the Terminal app (for Mac user)
 - [Instructions](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)
 
@@ -54,9 +54,9 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Find the secret file and message of the instructors with its content on Zoom
 
 -->
-
-## Day 2 - Intro to Linux and Command Line
   <!---
+## Day 2 - Intro to Linux and Command Line
+
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?]
   - [Why VM?](https://www.linkedin.com/learning/learning-vmware-vsphere-6-5/why-virtual-machines)
@@ -66,7 +66,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
   - If you want to install your own Linux Virtual Machine, here are a couple of reference links:
      - [Reference Tutorial 1](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
      - [Reference Tutorial 2](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox)
- -->
+ 
 ### Intro to Unix/Linux
 - [Unix history](https://youtu.be/7FjX7r5icV8)
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
@@ -107,7 +107,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - alias
 - wget
 -->
-
+<!--
 ## Day 3 - Intro to the Command Line
 
 ### Getting Started with Linux (Continued)
@@ -154,7 +154,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Write a command that returns only the `email` and `grade` of students
 -->
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
-
+<!--
 ## Day 7 - Networking: Introduction
  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
 ### Networking
@@ -175,7 +175,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [SSH Keys](https://www.youtube.com/watch?v=EuIYabZS3ow)
 - SSH into partner's machine with previously created account
 -->
-
+<!--
 ### How to tell what doors (ports and services) are open
 - netstat
 - nmap localhost
@@ -196,7 +196,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
-
+<!--
 ## Day 8 - Malware and Bash Scripting
 
 ### Malware
