@@ -1,9 +1,9 @@
-STEM Summer Cyber Camp 2021
+Cyber Camp 1.0 (Summer 2021)
 ======================
 <!-- forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)-->
 
 # Summary and Audience
-STEM After-School Cyber Camp 2021 is designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 9-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. STEM After-School Cyber Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
+Cyber Camp 1.0 - Summer 2021 is designed to engage and encourage the students to think about the more advanced computer systems and internet resources they interact with daily, from a strong security posture. The camp is geared towards students in Grades 9-12. The camp provides hands-on learning in the areas of cyber defense, programming, software, computer administration, networking, critical thinking, applied learning, and engineering methods and reasoning. STEM After-School Cyber Camp is great prep for anyone looking to become a computer/IT technician and/or looking into a college degree of Computer Science or Computer Engineering. No prior experience is required.
 
 # Objective
 Prepare students to understand basic to intermediate-level concepts in cybersecurity. The camp begins with the campers learning Linux operating system and Linux commands. Students will then learn how to administer a computer system, while providing user services and maintaining security.
@@ -18,7 +18,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 # Outline
 
-## Week 1 - Intro and Setup
+## Day 1 - Intro and Setup
 ### Welcome and Intro
   - Teachers
   - Students
@@ -29,7 +29,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
     - What major do you want to choose in college?
 <!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6) -->
 
-
+<!--
 
 ### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
@@ -53,7 +53,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Now try `ls -a` what is different?
 - Find the secret file and message of the instructors with its content on Zoom
 
-## Week 2 - Intro to Linux and Command Line
+## Day 2 - Intro to Linux and Command Line
   <!---
 ### Intro to Virtual Machines
   - [What is a Virtual Machine (VM)?]
@@ -106,7 +106,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - wget
 -->
 
-## Week 3 - Intro to the Command Line
+## Day 3 - Intro to the Command Line
 
 ### Getting Started with Linux (Continued)
 - Review basic commands from last week
@@ -114,7 +114,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 
-## Week 4 - More On the Command Line
+## Day 4 - More On the Command Line
 
 ### Linux File System (Continued)
 - How do you find your home directory?
@@ -129,7 +129,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
 
 
-## Week 5 - Grep and Regular Expression
+## Day 5 - Grep and Regular Expression
 ### Review
 ### [Access Permission](https://en.wikipedia.org/wiki/File-system_permissions)
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
@@ -137,7 +137,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - [How To Use grep Command](https://phoenixnap.com/kb/grep-command-linux-unix-examples)
 - [A Beginner’s Guide To Grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/)
 
-## Week 6 - Grep and Regular Expression (continued)
+## Day 6 - Grep and Regular Expression (continued)
 ### grep
 - search in the dictionary /usr/share/dict/words  
 ### Regular Expressions (regex)
@@ -153,7 +153,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 -->
 <!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
 
-## Week 7 - Networking: Introduction
+## Day 7 - Networking: Introduction
  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -195,7 +195,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
 
-## Week 8 - Malware and Bash Scripting
+## Day 8 - Malware and Bash Scripting
 
 ### Malware
 - [Malware](https://youtu.be/juw6sPEGuEk)
@@ -326,3 +326,4 @@ app.use(express.static('public'));
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
 -->
 
+-->
