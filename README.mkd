@@ -1,4 +1,4 @@
-STEM After-School Cyber Camp 2021
+STEM Summer Cyber Camp 2021
 ======================
 <!-- forked from: [CSC2018](https://github.com/camel-clarkson/CSC/tree/CSC2018)-->
 
