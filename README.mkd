@@ -191,7 +191,7 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - kill
 - Put commands in background with `&`
 - wget `forever`
-<!-- - wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever -->
+ - wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
 - chmod of the file property
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
