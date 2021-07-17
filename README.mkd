@@ -29,22 +29,20 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
     - What major do you want to choose in college?
 <!-- - [Pre Class Survey](https://forms.gle/UuWWRZpoXp9gY2VA6) -->
 
-<!--
 ### Install MobaXterm (for Windows user)
 - Install [MobaXterm](https://mobaxterm.mobatek.net/download.html) (The Free Home Edition) 
 - Watch the [MobaXterm live demo](https://mobaxterm.mobatek.net/demo.html) to see how to setup the SSH connection
--->
 
 <!-- ### Install XQuartz (for Mac user)
 - Install [XQuartz](https://www.xquartz.org/)
 - Reboot
 -->
-<!--
+
 ### Open and use the Terminal app (for Mac user)
 - [Instructions](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)
 
 ### Connect to the Server
-- Username is `<firstname>_<lastname>` all in lowercase and the password is `passwd`
+- Username is `<firstletter>_<lastname>` all in lowercase and the password is `passwd`
 - Connect to the Linux server using SSH at this IP address: 3.12.96.179
 
 ### Exercise: Finding the Secret File
