@@ -51,7 +51,6 @@ Prepare students to understand basic to intermediate-level concepts in cybersecu
 - Now try `ls -a` what is different?
 - Find the secret file and message of the instructors with its content on Zoom
 
--->
   <!---
 ## Day 2 - Intro to Linux and Command Line
 
