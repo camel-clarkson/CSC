@@ -122,6 +122,17 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 
 ### Using VIM to write your first C program
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
+- Use vim to create `hello.c` and type in the following program
+```c
+#include <stdio.h>
+
+int main() {
+	printf("Hello World!");
+	return 0;
+}
+```
+- Use command `gcc hello.c` to compile the program
+- Run `./a.out` to execute the binary
 
 <!--
 ## Day 5 - Grep and Regular Expression
