@@ -17,7 +17,7 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 
 # Outline
 
-## Day 1 - Intro to Linux and Command Line
+## Day 1 - Intro to Linux
 
 ### Welcome and Intro
   - Teachers
@@ -71,6 +71,8 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 - [The story of Linux](https://youtu.be/5ocq6_3-nEw)
 - [How Linux is built](https://youtu.be/yVpbFMhOAwE)
 
+## Day 2 - Intro to the Command Line
+
 ### Linux fundamentals: Basic Commands
   For each of the commands below (three per group), provide the following:
    1. Commands Name
@@ -106,18 +108,10 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 - head
 -->
 
-<!--
-## Day 2 - Intro to the Command Line
-
 ### Getting Started with Linux (Continued)
-- Review basic commands from yesterday
 - [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
-
-## Day 4 - More On the Command Line
-
-### Linux File System (Continued)
 - How do you find your home directory?
 - How do you navigate the file system?
 
@@ -129,7 +123,7 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 ### Using VIM to write your first C program
 - [cat command](https://www.cyberciti.biz/faq/cat-line-numbers-and-ranges-under-unix-linux/)
 
-
+<!--
 ## Day 5 - Grep and Regular Expression
 ### Review
 ### [Access Permission](https://en.wikipedia.org/wiki/File-system_permissions)
