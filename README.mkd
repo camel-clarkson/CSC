@@ -108,9 +108,6 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 - head
 -->
 
-### Getting Started with Linux (Continued)
-- [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
-
 ### [Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po)
 - How do you find your home directory?
 - How do you navigate the file system?
@@ -135,6 +132,9 @@ int main() {
 - Use command `gcc hello.c` to compile the program
 - Run `./a.out` to execute the binary
 -->
+
+### Getting Started with Linux (Continued)
+- [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
 <!--
 ## Day 5 - Grep and Regular Expression
