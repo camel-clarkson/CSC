@@ -136,30 +136,27 @@ int main() {
 ### Getting Started with Linux (Continued)
 - [Redirect the output to a file](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
 
-<!--
-## Day 5 - Grep and Regular Expression
+## Day 3 - Grep and Regular Expression
 ### Review
 ### [Access Permission](https://en.wikipedia.org/wiki/File-system_permissions)
 - [chmod command](https://www.tutorialspoint.com/unix_commands/chmod.htm)
 ### grep
 - [How To Use grep Command](https://phoenixnap.com/kb/grep-command-linux-unix-examples)
 - [A Beginner’s Guide To Grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/)
-
-## Day 6 - Grep and Regular Expression (continued)
-### grep
 - search in the dictionary /usr/share/dict/words  
 ### Regular Expressions (regex)
 - Powerful tool for searching
 - Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
-### Exercise
+<!-- ### Exercise
 - Download the `week4_data.csv` file
 - This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
 - Write a command that returns all the entries of students who had an `A` for their `grade`
 - Write a command that returns only students whose `lastname` begins with A-L and `grade` is B or higher
+- --:
 <!---
 - Write a command that returns only the `email` and `grade` of students
 -->
-<!--### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)-->
+### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
 <!--
 ## Day 7 - Networking: Introduction
  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
