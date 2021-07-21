@@ -143,10 +143,13 @@ int main() {
 ### grep
 - [How To Use grep Command](https://phoenixnap.com/kb/grep-command-linux-unix-examples)
 - [A Beginner’s Guide To Grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/)
-- search in the dictionary /usr/share/dict/words  
+- search in the dictionary /usr/share/dict/words
+
+<!-- 
 ### Regular Expressions (regex)
 - Powerful tool for searching
 - Work through this tutorial on regex: [Regex Tutorial](http://regextutorials.com/intro.html?Basic%20symbols)
+-->
 <!-- ### Exercise
 - Download the `week4_data.csv` file
 - This spreadsheet has 4 columns, `lastname`, `firstname`, `email`, `grade`
