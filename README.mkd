@@ -217,14 +217,14 @@ echo $id
 - Variables are referenced with $, i.e., for a variable named `x` to use it we would write `$x`
 
 ### Exercise
-- Write the following hello world script using vim editor
+- Write the following hello world script using the vim editor
 - Remember to give the bash script a name, like mytest.sh
 ```bash
 #!/bin/bash
 
 echo "Hello, World!"
 ```
-- Run it by type
+- Run it by typing
 ```bash
 bash mytest.sh
 ```
