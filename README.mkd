@@ -239,60 +239,9 @@ read name
 
 echo "Hello, $name"
 ```
-<!-- - Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `week4_data.csv`
-
-### Closing
-- Closing remarks
-- Please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
- -->
-<!--
-### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
-- [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
--->
-
-<!--
-### Installing Software/Packages
-- [apt-get](https://youtu.be/EJgXqQvqaIM)
-- Update & Upgrade
-- Install & Unistall
-- Look at all Packages in Software Manager
--
-### Users/Groups
-- [adduser/group](https://www.youtube.com/watch?v=-OzmiIPOTxI)
-- Add a user to your machine
-  - username = student ; pw = student
-  - giving sudo access to the user you created
-- Passwords (strong passwords are IMPORTANT!)
-- Permissions (root vs normal user)
-- deluser
-- Exercise - Can you add, then delete a user?
--->
-
-<!--### Fun exercise (Which group can remote log in first)-->
-
-<!--  
+## Day 5
 ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
 
--->
-
-<!--
-- pkill -KILL/STOP -u username
-- Lock account - passwd -l username
--->
-
-<!--### Services
-- start, stop, restart
-- `/etc/init.d`
--->
-<!--
-### Intro to Scripts
-- changeSSHPort.sh
-setSSHBanner.sh - Banner - /etc/issue.net n
-- setHTML.sh
-getFailLog.sh - Logging Fails - /var/log/auth.log
--->
-
-<!-- ## Week 7 - Networking: Making Your Own Server
 ### Node.js
 - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
 - Make directory `public/views`
@@ -301,7 +250,7 @@ getFailLog.sh - Logging Fails - /var/log/auth.log
 - Customize your index.html to include your name somewhere on the page
 - Install the express package with `npm install express`
 - Create `app.js` in your project directory
-- The insturctors will provide you with the port to run your server on
+- The instructors will provide you with the port to run your server on
 - Add the following code to have the server serve your index.html to the client when they load the page
 ```js
 // Handle request to serve main file
@@ -318,12 +267,11 @@ app.use(express.static('public'));
 - Ensure that you see your web page
 - Kill the node server using the `kill` command
 
-<!-- ## Week 8 Bash Scripting (Part 2)
-### Exercises
+### Bash Scripting Exercises
 - Run the command `ps aux`
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
-- **TODO**
+<!-- - **TODO** -->
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
 <!-- ### Firewalls
 - Practice denying your partner through both port and IP addr.
