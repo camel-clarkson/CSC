@@ -240,77 +240,52 @@ read name
 echo "Hello, $name"
 ```
 ## Day 5
-### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY)
+<!-- ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY) -->
 
-### Node.js
-- Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
-- Make directory `public/views`
-<!-- - Then create `public/views/index.html` [example index.html](https://gist.github.com/nfarring/1113292). This will be what you see when you land oon the webpage -->
-- Create `publice/views/index.html`. This will be what you see when you land on the webpage. Here is an example html file:
-```html
-<html>
-<head>
-  <title>Express HTML</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <div style="margin:100px;">
-   
-class="navbar navbar-inverse navbar-static-top">
-  <div class="container">
-    <a class="navbar-brand" href="/">Express HTML</a>
-    <ul class="nav navbar-nav">
-      <li class="active">
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/sitemap">Sitemap</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    <div class="jumbotron"  style="padding:40px;">
-      <h1>Hello, world!</h1>
-      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-  </div>
-</body>
-</html>
-```
-- [Intro to HTML](https://youtu.be/jVMKUyBXiiY)
-- Customize your index.html to include your name somewhere on the page
+#### HTML5, CSS, and Javasript
+<!-- - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30) -->
+_ Intro to web programming via cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
+- Download `public.tar.gz` from this github repo
+- Use the `tar` command to extract the conents and use the `man` command to figure out what flags to use
+- The contents of the `public.tar.gz` file contain all the HTML, CSS, and client-side JS for you website
+- The main html file is located at `public/index.html`
+- Customize your `index.html` to include your name somewhere on the page (hint look for eitehr a `<h1>` or `<h2>` tag)
 - Install the express package with `npm install express`
 - Create `app.js` in your project directory
-- The instructors will provide you with the port to run your server on
-- Add the following code to have the server serve your index.html to the client when they load the page
+- Add the following code to your `app.js` file
 ```js
+// Import express package
+var express = require('express');
+var app = express();
+// specify port number
+var port = 8000;
+
 // Handle request to serve main file
 app.get('/', function(req, res) {
-	// __dirname is the working directory of the project
-	res.sendFile(__dirname + '/public/views/index.html');
+        // __dirname is the working directory of the project
+        res.sendFile(__dirname + '/public/index.html');
 });
 
 // allow the server to serve content from public directory
 app.use(express.static('public'));
+
+// Set server to listen to `port`
+app.listen(port, function() {
+        console.log('Server on port: ' + port);
+});
 ```
-- Run the server in the background using the command `node`
-- Launch firefox and navigate to localhost:your-port-here
+- Change the port number to one the instructors will give you
+- Run the server in the background using the command `node app.js &`
+- To see your webpage, open up your preferred web browser and navigate to `http://3.12.96.179:<your-port-number-here>`
 - Ensure that you see your web page
-- Kill the node server using the `kill` command
+- Kill the node server using `kill`
 
 ### Bash Scripting Exercises
 - Run the command `ps aux`
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
 <!-- - **TODO** -->
-- Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2` How does it work?
+- Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2`, where `$me` is variable containing your username. How does it work?
 <!-- ### Firewalls
 - Practice denying your partner through both port and IP addr.
 - [Post Class Survey](https://forms.gle/i3LoSjwZvFU1KZAZA)
