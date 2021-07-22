@@ -244,7 +244,7 @@ echo "Hello, $name"
 
 #### HTML5, CSS, and Javasript
 <!-- - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30) -->
-_ Intro to web programming via cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
+- Intro to web programming via cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
 - Download `public.tar.gz` from this github repo
 - Use the `tar` command to extract the conents and use the `man` command to figure out what flags to use
 - The contents of the `public.tar.gz` file contain all the HTML, CSS, and client-side JS for you website
