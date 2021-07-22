@@ -228,7 +228,7 @@ echo "Hello, World!"
 ```bash
 bash mytest.sh
 ```
-- Anohter way to run it is to use `chmod` command to make the file executable first then run it.  
+- Another way to run it is to use `chmod` command to make the file executable first then run it.  
 - Next, modify the script to ask user to input a name
 ```bash
 #!/bin/bash
