@@ -161,7 +161,7 @@ int main() {
 -->
 ## Day 4 - Networking: Introduction
 <!-- ### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git) -->
-<!--  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4) -->
+  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4)
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
 - [Network Ports](https://youtu.be/uMwzsh_Dd9Y)
@@ -181,7 +181,7 @@ int main() {
 - SSH into partner's machine with previously created account
 -->
 ### How to tell what doors (ports and services) are open
-- netstat
+- netstat -lntu
 - nmap localhost
 - [nmap cheat sheet](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
 
@@ -195,7 +195,7 @@ int main() {
 - kill
 - Put commands in background with `&`
 - wget `forever`
- - wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
+- wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
 - chmod of the file property
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
@@ -245,7 +245,6 @@ echo "Hello, $name"
 - Please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
  -->
 <!--
-- netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
 - [Malware](https://www.youtube.com/watch?v=afzkoB_lYNk)
 -->
