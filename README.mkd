@@ -195,7 +195,8 @@ int main() {
 - kill
 - Put commands in background with `&`
 - wget `forever`
-- wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever
+<!-- - wget https://github.com/camel-clarkson/CSC/blob/CSC2020/script/forever -->
+- wget https://raw.githubusercontent.com/camel-clarkson/CSC/CSC2021s/script/forever
 - chmod of the file property
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
