@@ -160,7 +160,7 @@ int main() {
 - Write a command that returns only the `email` and `grade` of students
 -->
 ## Day 4 - Networking: Introduction
-### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git)
+<!-- ### Game Time: [The Command Line Murders](https://github.com/veltman/clmystery.git) -->
 <!--  - [Sheldon likes Ubuntu](https://youtu.be/X_mzgdQGwY4) -->
 ### Networking
 - [IP Addresses](https://youtu.be/7_-qWlvQQtY)
@@ -200,8 +200,6 @@ int main() {
 - Run `forever` in background
 - Find `forever`'s pid using `ps`
 - Kill `forever` with the `kill` command
-<!--
-## Day 8 - Malware and Bash Scripting
 
 ### Malware
 - [Malware](https://youtu.be/juw6sPEGuEk)
@@ -240,12 +238,12 @@ read name
 
 echo "Hello, $name"
 ```
-- Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `week4_data.csv`
+<!-- - Take this idea and write a script named `get_grade.sh` which prompts the user to input a grade. Then the script will return all the entries with that grade reading from `week4_data.csv`
 
 ### Closing
 - Closing remarks
 - Please take a moment to fill out the [feedback form](https://app.smartsheet.com/b/form/30881ca40465431598f81285fd1df2d2)
-
+ -->
 <!--
 - netstat -lntu
 ### [Sudo](https://www.youtube.com/watch?v=imnEUvvDxc4)
