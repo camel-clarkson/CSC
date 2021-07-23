@@ -243,6 +243,7 @@ echo "Hello, $name"
 <!-- ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY) -->
 
 #### HTML5, CSS, and Javasript
+- How does the web work? [video](https://www.youtube.com/watch?v=keo0dglCj7I)
 <!-- - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30) -->
 - Create a new directory for this project and navigate to it
 - Download `public.tar.gz` from this github repo
