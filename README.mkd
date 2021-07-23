@@ -244,6 +244,7 @@ echo "Hello, $name"
 
 #### HTML5, CSS, and Javasript
 - How does the web work? [video](https://www.youtube.com/watch?v=keo0dglCj7I)
+- Cross site scripting attack: [video](https://www.youtube.com/watch?v=zv0kZKC6GAM)
 - Create a new directory for this project and navigate to it
 - Download `public.tar.gz` from this github repo
 - Use the `tar` command to extract the conents and use the `man` command to figure out what flags to use
@@ -279,8 +280,6 @@ app.listen(port, function() {
 - To see your webpage, open up your preferred web browser and navigate to `http://3.12.96.179:<your-port-number-here>`
 - Ensure that you see your web page
 - Kill the node server using `kill`
-
-- Cross site scripting attack: [video](https://www.youtube.com/watch?v=zv0kZKC6GAM)
 
 ### Bash Scripting Exercises
 - Run the command `ps aux`
