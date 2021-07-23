@@ -244,7 +244,6 @@ echo "Hello, $name"
 
 #### HTML5, CSS, and Javasript
 - How does the web work? [video](https://www.youtube.com/watch?v=keo0dglCj7I)
-<!-- - Read the following Node.js tutorials: [tutorial 1](https://www.guru99.com/node-js-express.html) and [tutorial 2](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30) -->
 - Create a new directory for this project and navigate to it
 - Download `public.tar.gz` from this github repo
 - Use the `tar` command to extract the conents and use the `man` command to figure out what flags to use
@@ -281,13 +280,12 @@ app.listen(port, function() {
 - Ensure that you see your web page
 - Kill the node server using `kill`
 
-- Cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
+- Cross site scripting attack: [video](https://www.youtube.com/watch?v=zv0kZKC6GAM)
 
 ### Bash Scripting Exercises
 - Run the command `ps aux`
 - Create script to launch node sever in the background
 - Create script to kill the node server **you** launched
-<!-- - **TODO** -->
 - Hint, what does the following command do? `ps aux | grep -E "$me.*[0-9][[:space:]]+node app.js" | tr -s ' '| cut -d ' ' -f 2`, where `$me` is variable containing your username. How does it work?
 <!-- ### Firewalls
 - Practice denying your partner through both port and IP addr.
