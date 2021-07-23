@@ -280,7 +280,7 @@ app.listen(port, function() {
 - Ensure that you see your web page
 - Kill the node server using `kill`
 
-- Intro to web programming via cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
+- Cross site scripting attack: [video](https://www.youtube.com/watch?v=L5l9lSnNMxg)
 
 ### Bash Scripting Exercises
 - Run the command `ps aux`
