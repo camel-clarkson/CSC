@@ -242,7 +242,7 @@ echo "Hello, $name"
 ## Day 5 - Make Your Own Website and Server!
 <!-- ### [Remote Administration](https://www.youtube.com/watch?v=o-W_mDGX1bY) -->
 
-#### HTML5, CSS, and Javasript
+#### HTML5, CSS, and Javascript
 - How does the web work? [video](https://www.youtube.com/watch?v=keo0dglCj7I)
 - Cross site scripting attack: [video](https://www.youtube.com/watch?v=zv0kZKC6GAM)
 - Create a new directory for this project and navigate to it
