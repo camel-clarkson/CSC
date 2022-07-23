@@ -47,7 +47,7 @@ The objective of Cyber Camp 1.0 is to introduce and prepare students about the b
 
 ### Exercise: Changing Your Password
 - Use the `passwd` command to update your password
-- Enter your old password and then your new one. DON'T FORGET IT!
+- Enter your old password and then your new one. **DON'T FORGET IT!**
 
 ### Exercise: Finding the Secret File
 - Linux `cat <filename>` command to see the contents of file
